@@ -5,7 +5,7 @@ Handouts:
 3. [Vectors and Quantum States](/vectors:quantum_states.pdf)
 
 ## Week of January 15 
-[Homework 1](/HW1.pdf): file with answers
+[Homework 1](/HW1.pdf): [here](/hw1.m) are my answers
 
 [Kinetic Energy Matrix](/kinetic.m) (from 1/18)
 ## Week of January 22
