@@ -3,6 +3,5 @@ Kelly Wassarman
 
 # Week of January 15 
 [Kinetic Energy Matrix](/kinetic.m)
-
-## Header 2
-### Header 3
+## Week of January 22
+### Week of January 29
