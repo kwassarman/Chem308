@@ -1,5 +1,4 @@
-# Chem308 - Topics in Physical Chemistry
-### Kelly Wassarman
+# Kelly Wassarman
 
 ## Week of January 15 
 [Kinetic Energy Matrix](/kinetic.m)
