@@ -21,7 +21,7 @@ This is a chemistry class that builds upon the topics learned in quantum chemist
 
 [Particle in a Box](PIB2.m) edits (from 1/24)
 
-[PIB](PIB3.m) edits (from 1/25)
+[Particle in a Box](PIB3.m) edits (from 1/25)
 
 [Sort Eigenvalue/Eigenvectors](eigsort.m) code to value eigenvalues in asceding order (from 1/25)
 
