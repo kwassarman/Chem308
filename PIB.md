@@ -1,3 +1,5 @@
+{% include mathjax.html %}
+
 # Particle in a Box
 
 The equation that describes quantum mechanics of a particles in well defined energy states can be determined by the time independent Schrödinger Equation
