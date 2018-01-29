@@ -10,7 +10,7 @@ The equation that describes quantum mechanics of particles in well defined energ
 \end{equation}
 where $$\mathcal{H}$$ is the Hamiltonian operator that is the sum of the kinetic and potential energy operators, and $$\Psi(x)$$ is the time independent wavefunction.
 
-Matlab can be used to plot the wavefunctions at different energy states, ([Particle in a box](1D_PIB.m)). The potential well can be modified to observe how the wavefunctions react to the change.
+Matlab can be used to plot the wavefunctions at different energy states, ([Particle in a box](1D_PIB.m)). The potential well can be modified to observe how the wavefunctions react to the change. In order for the code to work, the eigenvalues and eigenvectors need to be sorted, [here](eigsort.m).
 
 ## Progress of Matlab Code
 
