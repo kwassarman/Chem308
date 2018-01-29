@@ -4,11 +4,11 @@
 
 # Particle in a Box
 
-The equation that describes quantum mechanics of a particles in well defined energy states can be determined by the time independent Schrödinger Equation
+The equation that describes quantum mechanics of particles in well defined energy states can be determined by the time independent Schrödinger Equation
   \begin{equation}\label{tise}
     \mathcal{H}\psi(x)=E\psi(x)
 \end{equation}
-where $$\mathcal{H}$$ is the Hamiltonian operator that is the sum of the kinetic and potential energy operators, and $$\Psi(x,t)$$ is the time independent wavefunction.
+where $$\mathcal{H}$$ is the Hamiltonian operator that is the sum of the kinetic and potential energy operators, and $$\Psi(x)$$ is the time independent wavefunction.
 
 ### Week of January 15 
 [Kinetic Energy Matrix](/kinetic.m) (from 1/18)
