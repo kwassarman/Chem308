@@ -26,3 +26,5 @@ Matlab can be used to plot the wavefunctions at different energy states, ([Parti
 [Particle in a Box](PIB3.m) edits (from 1/25)
 
 [Sort Eigenvalue/Eigenvectors](eigsort.m) code to value eigenvalues in asceding order (from 1/25)
+
+[Particle in a Box "final"](1D_PIB.m) edits (from 1/29)
