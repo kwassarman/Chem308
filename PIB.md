@@ -1,3 +1,5 @@
+{% include mathjax.html %}
+
 (For table of contents, visit the [home page](/README.md))
 
 # Particle in a Box
