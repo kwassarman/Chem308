@@ -1,4 +1,4 @@
-(For a table of contents, visit the [home page](/README.md))
+(For table of contents, visit the [home page](/README.md))
 
 # Particle in a Box
 
@@ -18,5 +18,3 @@ where $$\mathcal{H}$$ is the Hamiltonian operator that is the sum of the kinetic
 [Particle in a Box](PIB3.m) edits (from 1/25)
 
 [Sort Eigenvalue/Eigenvectors](eigsort.m) code to value eigenvalues in asceding order (from 1/25)
-
-[back](README.md)
