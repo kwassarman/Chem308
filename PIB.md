@@ -10,6 +10,10 @@ The equation that describes quantum mechanics of particles in well defined energ
 \end{equation}
 where $$\mathcal{H}$$ is the Hamiltonian operator that is the sum of the kinetic and potential energy operators, and $$\Psi(x)$$ is the time independent wavefunction.
 
+
+
+## Progress of Matlab Code
+
 ### Week of January 15 
 [Kinetic Energy Matrix](/kinetic.m) (from 1/18)
 ### Week of January 22
