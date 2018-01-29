@@ -12,7 +12,7 @@ where $$\mathcal{H}$$ is the Hamiltonian operator that is the sum of the kinetic
 
 The energies of the particle in the contrained infinite region of space is quantized, and the energies and $$\Psi$$ of the particle are labeled by the principle quantum number, n. Because the time independent Schrödinger is describing a specific state, when the principle quantum number, n, is chosen for either the energy or $$\Psi$$, then it is also chosen for the other. For example, if the energy is for n=1, then $$\Psi$$ is also for n=1. 
 
-Matlab can be used to plot the wavefunctions at different energy states, ([Particle in a box](1D_PIB.m)). The potential well can be modified to observe how the wavefunctions react to the change. In order for the code to work, the eigenvalues and eigenvectors need to be sorted, so this code [here](eigsort.m) also needs to be open.
+Matlab can be used to plot the wavefunctions at different energy states, ([Particle in a box](PIB4.m)). The potential well can be modified to observe how the wavefunctions react to the change. In order for the code to work, the eigenvalues and eigenvectors need to be sorted, so this code [here](eigsort.m) also needs to be open.
 
 ## Progress of Matlab Code
 
@@ -27,4 +27,4 @@ Matlab can be used to plot the wavefunctions at different energy states, ([Parti
 
 [Sort Eigenvalue/Eigenvectors](eigsort.m) code to value eigenvalues in asceding order (from 1/25)
 
-[Particle in a Box "final"](1D_PIB.m) edits (from 1/29)
+[Particle in a Box "final"](PIB4.m) edits (from 1/29)
