@@ -1,4 +1,4 @@
-function PIB(n)
+function PIB6(n)
 hbar=1;
 m=1; % mass of electron
 l=1; % length of box 0.5 nm (written in meters)
