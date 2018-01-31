@@ -1,4 +1,4 @@
-function PIB5
+function PIB(n)
 hbar=1;
 m=1; % mass of electron
 l=1; % length of box 0.5 nm (written in meters)
@@ -32,12 +32,19 @@ srtvecs=sc*srtvecs;
 v=diag(srtvals); % vector of sorted eigenvalues
 % figure(5)
 % plot(v(1:100))
-n=ones(pts,1); % column vector of 1's
-repvals=n*v';
+%r=ones(pts,1); % column vector of 1's
+repvals=(ones(pts,1))*v';
 % repvals(1:6,1:6)
 shiftvecs=srtvecs+repvals; % eigenvectors shifted based on repvals matrix
 
-figure(1);plot(x,shiftvecs(:,1:5),x,Vvec); % plot potential well and eigenvectors (1-5)
-axis([-inf inf -.5 200]); % adjusts axes to be able to see eigenvectors
+figure(1);plot(x,shiftvecs(:,1:n),x,Vvec); % plot potential well and eigenvectors (1-5)
+axis([-inf inf -.5 300]); % adjusts axes to be able to see eigenvectors
 end
 
+function [ srtvecs,srtvals ] = eigsort( vecs,vals )
+d=diag(vals);
+[dsort,ord]=sort(d);
+srtvecs=vecs(:,ord);
+srtvals=diag(dsort);
+
+end
