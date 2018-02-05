@@ -10,6 +10,6 @@ This is a chemistry class that builds upon the topics learned in quantum chemist
 
     A. Time independent Schrödinger equation (TISE)
     
-    - Application:[Particle in a Box](PIB.md) (1-D)
+     - Application: [Particle in a Box](PIB.md) (1-D)
             
     B. Time dependent Schrodinger equation (TDSE)
