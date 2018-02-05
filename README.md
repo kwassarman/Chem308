@@ -7,4 +7,9 @@ This is a chemistry class that builds upon the topics learned in quantum chemist
 
 ## Table of Contents
 1. [Schrödinger Equation](Schrodinger.md)
-    A. [Particle in a Box](PIB.md) (1-D)
+
+    A. Time independent Schrödinger equation (TISE)
+    
+            - Application: [Particle in a Box](PIB.md) (1-D)
+            
+    B. Time dependent Schrodinger equation (TDSE)
