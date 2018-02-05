@@ -29,7 +29,7 @@ where $$\mathcal{H}$$ is the Hamiltonian operator formed by the sum of the kinet
 
 Space and time are separable in the wavefunction if and only if $$\Psi(x,t)$$ satisfies the time independent Schrödinger equation ($$\mathcal{H}$$$$\Psi$$=E$$\Psi$$). And if the variables are separatble, then $$\Psi(x,t)$$ can be rewritten as,
 \begin{equation}\label{separation}
-    \psi(x,t)=psi(x)\mathcal{T(t)}
+    \psi(x,t)=\Psi(x)\mathcal{T(t)}
 \end{equation}
 where T(t) is always equal to exponential equation.
 Therefore, the TDSE can be written as 
