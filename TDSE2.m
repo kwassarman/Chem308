@@ -18,7 +18,7 @@ V=diag(Vvec);
 
 H=T+V;
 
-[vecs,vals]=eig(H); % determining eigen vectors and eigenvalues
+[vecs,vals]=eig(H); % determining eigenvectors and eigenvalues
 [srtvecs,srtvals]=eigsort(vecs,vals); % sorting eigenvalues in ascending order
 
 psiE=zeros(pts,1);
