@@ -2,7 +2,7 @@
 
 (For table of contents, visit the [home page](/README.md))
 
-([Next page](TDSE.md) Time Dependent Schrödinger Equation)
+([Next page](TDSE.md))
 
 # Particle in a Box 
 
@@ -29,4 +29,4 @@ Matlab can be used to plot the wavefunctions at different energy states, ([Parti
 
 [Particle in a Box](PIB5.m) edits that have constants equal to 1 so the wavefunctions are separated by the values of the eigenvalues (from 1/30)
 
-([Next page](TDSE.md) Time Dependent Schrödinger Equation)
+[Next page](TDSE.md) Time Dependent Schrödinger Equation
