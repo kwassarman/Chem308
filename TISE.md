@@ -2,7 +2,7 @@
 
 (For table of contents, visit the [home page](/README.md))
 
-[Next page](PIB.md)
+[Previous](Quantum_ideas.md)/[Next](PIB.md)
 
 # The Time Independent Schrödinger Equation (TISE)
 
