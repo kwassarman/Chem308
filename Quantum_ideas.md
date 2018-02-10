@@ -1,6 +1,6 @@
 {% include mathjax.html %}
 
-(For table of contents, visit the [home page](/README.md))
+(For table of contents, visit the [home page](/README.md); [Next](TISE.md))
 
 # Summary of Quantum Ideas
 
@@ -35,4 +35,5 @@ Again, because the original wavefunction needs to be retained after operating wi
 
 The Hamiltonian operator gives the total energy of a system. It is the sum of the kinetic energy operator and the potential energy operator. The potential energy operator is dependent on the model that is being used (such as [particle in a box](PIB.md), particle in a ring, harmonic ocsillator, etc.). 
 
-[Next page](TISE.md) (Time Indpendent Schrödinger Equation)
+
+[Next](TISE.md) (Time Indpendent Schrödinger Equation)
