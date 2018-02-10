@@ -2,6 +2,8 @@
 
 (For table of contents, visit the [home page](/README.md))
 
+[Next page](PIB.md)
+
 # The Time Independent Schrödinger Equation (TISE)
 
 As the name describes, the time independent Schrödinger only depends on space and is indepdent of time. The equation that describes quantum mechanics of particles in well defined energy states or stationary states can be determined by the equation:
