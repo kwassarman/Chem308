@@ -1,7 +1,8 @@
 {% include mathjax.html %}
 
 (For table of contents, visit the [home page](/README.md))
-  ([Next](TISE.md))
+
+([Next](TISE.md))
 
 # Summary of Quantum Ideas
 
