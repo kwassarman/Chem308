@@ -8,5 +8,5 @@ This is a chemistry class that builds upon the topics learned in quantum chemist
 ## Table of Contents
 
 1. [Summary of Quantum Ideas](Quantum_ideas.md)
-2. [Paricle in a Box](PIB.md) (1-D)
-3. [Time Dependent Schrödinger Equation](TDSE.md) (TDSE)
+2. [Paricle in a Box](PIB.md) 
+3. [Time Dependent Schrödinger Equation](TDSE.md) 
