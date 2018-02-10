@@ -2,7 +2,7 @@
 
 (For table of contents, visit the [homepage](/README.md))
 
-[Previous](TISE.md)/[Next page](TDSE.md)
+[Previous](TISE.md)/[Next](TDSE.md)
 
 # Particle in a Box 
 
