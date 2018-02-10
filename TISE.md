@@ -31,3 +31,4 @@ Therefore, the TDSE can be written as
  \end{equation}
 if the variables are separable because the energy eigenfunctions are stationary.
 
+[Next page](PIB.md) (Particle in a Box)
