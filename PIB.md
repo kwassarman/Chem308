@@ -2,13 +2,11 @@
 
 (For table of contents, visit the [home page](/README.md))
 
-(For Schrödinger Equation, visit [here](Schrödinger.md))
-
 # Particle in a Box 
 
-The particle in a box model is used to describe the energy of a particle in certain kinetic and potential energy conditions. In a one dimensional model, the particle is trapped in a well with length, l. The well represents the potential energy, and initially looking at an infinite potential energy, so the particle is trapped in the well. In the future, the potential energy well can be modified to determine how the eigenvectors and eigenvalues will change if the well is not infinite on the sides or if a barrier is placed in the middle of the well. 
+The particle in a box model is used to describe the energy of a particle in certain kinetic and potential energy conditions. In a one dimensional model, the particle is trapped in a well with length, L, where the well represents the potential energy. Initially, we only looked at a well with infinite walls. However, in the future, the potential energy well can be modified to determine how the eigenvectors and eigenvalues will change if the well is not infinite or a barrier is placed in the middle of the well. 
 
-The energies of the particle in the contrained infinite region of space is quantized, and the energies and $$\Psi$$ of the particle are labeled by the principle quantum number, n. Because the time independent Schrödinger is describing a specific state, when the principle quantum number, n, is chosen for either the energy or $$\Psi$$, then it is also chosen for the other. For example, if the energy is for n=1, then $$\Psi$$ is also for n=1.
+The energies of the particle in the constrained infinite region of space is quantized, and the energies and $$\Psi$$ of the particle are labeled by the principle quantum number, n. Because the time independent Schrödinger is describing a specific state, when the principle quantum number, n, is chosen for either the energy or $$\Psi$$, then it is also chosen for the other. For example, if the energy is for n=1, then $$\Psi$$ is also for n=1.
 
 Matlab can be used to plot the wavefunctions at different energy states, ([Particle in a box](PIB5.m)). The potential well can be modified to observe how the wavefunctions react to the change. 
 
