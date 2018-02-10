@@ -2,6 +2,8 @@
 
 (For table of contents, visit the [home page](/README.md))
 
+([Next page](TDSE.md) Time Dependent Schrödinger Equation)
+
 # Particle in a Box 
 
 The particle in a box model is used to describe the energy of a particle in certain kinetic and potential energy conditions. In a one dimensional model, the particle is trapped in a well with length, L, where the well represents the potential energy. Initially, we only looked at a well with infinite walls. However, in the future, the potential energy well can be modified to determine how the eigenvectors and eigenvalues will change if the well is not infinite or a barrier is placed in the middle of the well. 
@@ -26,3 +28,5 @@ Matlab can be used to plot the wavefunctions at different energy states, ([Parti
 [Particle in a Box](PIB4.m) edits (from 1/29)
 
 [Particle in a Box](PIB5.m) edits that have constants equal to 1 so the wavefunctions are separated by the values of the eigenvalues (from 1/30)
+
+([Next page](TDSE.md) Time Dependent Schrödinger Equation)
