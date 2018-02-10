@@ -16,9 +16,10 @@ Space and time are separable in the wavefunction if and only if $$\Psi(x,t)$$ sa
 \begin{equation}\label{separation}
     \psi(x,t)=\Psi(x)\mathcal{T(t)}
 \end{equation}
-where T(t) is always equal to exponential equation.
+where T(t) is always equal to $$e^{-i E_n t/\hbar}$$.
 Therefore, the TDSE can be written as 
   \begin{equation}
-    \mathcal{H}\psi(x,t) = not sure how to write with exponential
+    \mathcal{H}\psi(x,t) = psi(x,t)e^{-i E_n t/\hbar}
  \end{equation}
 if the variables are separable because the energy eigenfunctions are stationary.
+
