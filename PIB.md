@@ -1,6 +1,6 @@
 {% include mathjax.html %}
 
-(For table of contents, visit the [home page](/README.md))
+(For table of contents, visit the [homepage](/README.md))
 
 [Previous](TISE.md)/[Next page](TDSE.md)
 
