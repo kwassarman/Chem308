@@ -19,7 +19,7 @@ There are different physical states that you can determine about the particle in
 <p align="center"> $V=\begin{cases} 0, & \mbox{if } 0<x<a \\\ 10^{-5}j, & \mbox{otherwise} \end{cases}$ </p>
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/35305574/35600148-72b520aa-05fa-11e8-88bf-b6bf9e10ba02.jpg" width="500">
+  <img src="https://github.com/kwassarman/Chem308/blob/master/PIB.pdf" width="500">
 </p>
 <p align="center">Figure2.1: Potential energy</p>
 
