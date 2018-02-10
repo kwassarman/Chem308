@@ -2,6 +2,8 @@
 
 (For table of contents, visit the [home page](/README.md))
 
+[Previous](PIB.md)/Next
+
 # The Time Dependent Schrödinger Equation (TDSE)
 
 The time dependent Schrödinger describes all physically realizable states, and is defined by the equation:
