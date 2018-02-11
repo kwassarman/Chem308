@@ -18,8 +18,6 @@ There are different physical states that you can determine about the particle in
 
 <p align="center">
   <img src="https://github.com/kwassarman/Chem308/blob/master/PIB.jpg" width="500">
-</p>
-<p align="center">.
 
 ## Limitations Using Time Indpendent Schrödinger
 
