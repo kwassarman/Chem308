@@ -17,7 +17,7 @@ The well can be defined by a certain length, L, and height at the sides. Initial
 There are different physical states that you can determine about the particle in the well based on which operator you use. Such as, if you want to determine the position of the particle at the ground state, then you would use the position operator to generate the observable of the location of the particle. And you want to determine the average position of the particle when at multiple states, you can use an expectation value (average position) based upon the possible states the particle can be in. This can also be done for momentum and energy. Such as if you want to determine the energy of the particle when in the ground state, you can use the Hamiltonian operator on the wave function. Below is a picture of the first five energy states for an electron in an infinite box.
 
 <p align="center">
-  <img src="https://github.com/kwassarman/Chem308/blob/master/_includes/PIB.jpg" width="500">
+  <img src=_includes/PIB.jpg width="500">
 
 ## Limitations Using Time Indpendent Schrödinger
 
