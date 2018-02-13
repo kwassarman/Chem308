@@ -32,24 +32,26 @@ psiX=EtoX*psiE;
 t=0; dt=0.1;
 for k=1:50
     psiEt=psiE.*exp(-i*diag(srtvals)*t/hbar);
-    npsiEt=psiEt/norm(psiEt); % normalize vector of psiE dependent on time
+    %npsiEt=psiEt/norm(psiEt); % normalize vector of psiE dependent on time
     psiXt=EtoX*psiEt;
-    npsiXt=psiXt/norm(psiXt); % normalize vector of psiX dependent on time
+    psiXt=psiXt/norm(psiXt); % normalize vector of psiX dependent on time
     rpsiXt=abs(psiXt).^2;
-    nrpsiXt=rpsiXt/norm(rpsiXt);
     v=diag(srtvals);
     repvals=(ones(pts,1))*v';
-    snrpsiXt=nrpsiXt+repvals; % shifted psiXt by energy
-    expX=dot(nrpsiXt,nrpsiXt)/2;
+    snrpsiXt=rpsiXt+repvals; % shifted psiXt by energy
+    expX=real(psiXt'*(x.*psiXt)); % expectation value
+    expE=real(psiEt'*(x.*psiEt));
     figure(1)
     subplot(2,2,1)
     KLW_plot3(x,psiXt)
     subplot(2,2,2)
     KLW_plot3(diag(srtvals),psiEt)
     subplot(2,2,[3,4])
-    plot(x,snrpsiXt(:,1)) % probability density
-    %plot(x,snrpsiXt(:,1),x,expX)  
-    axis([-inf inf 5.05 5.25])
+    %plot(x,nrpsiXt) % probability density not shifted
+    %plot(x,snrpsiXt(:,1)) % probability density shifted
+    plot(x,snrpsiXt(:,1),expX,5.095,'r *')  
+    axis([-inf inf 5.092 5.108])
+    text(0.2,5.095,['E= ' num2str(expE)])
     drawnow
     t=t+dt;
 end
@@ -91,3 +93,4 @@ function KLW_plot3(basisaxis,psi);
         view([70,10])       % define the view angle
 grid on             % turn on the grid
 end 
+
