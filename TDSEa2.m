@@ -1,4 +1,4 @@
-function TDSEa(n)
+function TDSEa2(n)
 hbar=1;
 m=1; % mass of electron
 l=1; % length of box 0.5 nm (written in meters)
@@ -19,7 +19,7 @@ H=T+V;
 EtoX=srtvecs; % change from energy basis to position basis
 XtoE=inv(srtvecs); % change from position basis to energy basis
 psiE=zeros(pts,1); % vector of all zeros
-psiE([1])=1; % change position 1,2 in vector to 1
+psiE([1,2])=1; % change position 1,2 in vector to 1
 psiX=EtoX*psiE;
 
 %reference on how to shift on graph
@@ -32,12 +32,11 @@ psiX=EtoX*psiE;
 t=0; dt=0.1;
 for k=1:50
     psiEt=psiE.*exp(-i*diag(srtvals)*t/hbar);
-    npsiEt=psiEt/sum(psiEt); % normalize vector of psiE dependent on time
+    npsiEt=psiEt/norm(psiEt); % normalize vector of psiE dependent on time
     psiXt=EtoX*psiEt;
-    npsiXt=psiXt/sum(psiXt); % normalize vector of psiX dependent on time
-    rpsiEt=psiE.*cos(diag(srtvals)*t/hbar); % real psiEt
-    rpsiXt=EtoX*rpsiEt; % real psiXt
-    nrpsiXt=rpsiXt/sum(rpsiXt); % normalized and real psiXt used in probability density
+    npsiXt=psiXt/norm(psiXt); % normalize vector of psiX dependent on time
+    rpsiXt=abs(psiXt).^2;
+    nrpsiXt=rpsiXt/norm(rpsiXt);
     v=diag(srtvals);
     repvals=(ones(pts,1))*v';
     snrpsiXt=nrpsiXt+repvals; % shifted psiXt by energy
@@ -50,7 +49,7 @@ for k=1:50
     subplot(2,2,[3,4])
     plot(x,snrpsiXt(:,1)) % probability density
     %plot(x,snrpsiXt(:,1),x,expX)  
-    %axis([-inf inf 0 .1])
+    axis([-inf inf 5.05 5.25])
     drawnow
     t=t+dt;
 end
