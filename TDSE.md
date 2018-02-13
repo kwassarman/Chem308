@@ -25,9 +25,13 @@ if the variables are separable because the energy eigenfunctions are stationary.
 
 ## Matlab
 Matlab can be used to plot the wavefunctions that are dependent on both position and time. Three plots are showed:
-    1. Wavefunciton in position basis over time in real and imaginary
-    2. Wavefunction in energy basis over time in real and imaginary
-    3. Probability density of position in real and shows expectation value and average energy.
+
+  1. Wavefunciton in position basis over time in real and imaginary
+    
+  2. Wavefunction in energy basis over time in real and imaginary
+    
+  3. Probability density of position in real and shows expectation value and average energy.
+    
 Multiple states can be looked at together.
 [Time Independent Schrödinger Equation](TDSEa2.m)
 
