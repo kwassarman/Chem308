@@ -19,7 +19,7 @@ H=T+V;
 EtoX=srtvecs; % change from energy basis to position basis
 XtoE=inv(srtvecs); % change from position basis to energy basis
 psiE=zeros(pts,1); % vector of all zeros
-psiE([1,2])=1; % change position 1,2 in vector to 1
+psiE([1,2,3])=1; % change position 1,2 in vector to 1
 psiX=EtoX*psiE;
 
 %reference on how to shift on graph
@@ -36,11 +36,11 @@ for k=1:50
     psiXt=EtoX*psiEt;
     psiXt=psiXt/norm(psiXt); % normalize vector of psiX dependent on time
     rpsiXt=abs(psiXt).^2;
-    v=diag(srtvals);
-    repvals=(ones(pts,1))*v';
+    expE=real(psiEt'*(x.*psiEt));
+    %v=diag(srtvals);
+    repvals=(ones(pts,1))*expE;
     snrpsiXt=rpsiXt+repvals; % shifted psiXt by energy
     expX=real(psiXt'*(x.*psiXt)); % expectation value
-    expE=real(psiEt'*(x.*psiEt));
     figure(1)
     subplot(2,2,1)
     KLW_plot3(x,psiXt)
@@ -49,9 +49,9 @@ for k=1:50
     subplot(2,2,[3,4])
     %plot(x,nrpsiXt) % probability density not shifted
     %plot(x,snrpsiXt(:,1)) % probability density shifted
-    plot(x,snrpsiXt(:,1),expX,5.095,'r *')  
-    axis([-inf inf 5.092 5.108])
-    text(0.2,5.095,['E= ' num2str(expE)])
+    plot(x,snrpsiXt(:,1),expX,expE,'r *')  
+    axis([0 1 0 expE+0.015])
+    text(0.2,expE+0.013,['E= ' num2str(expE)])
     drawnow
     t=t+dt;
 end
@@ -93,4 +93,3 @@ function KLW_plot3(basisaxis,psi);
         view([70,10])       % define the view angle
 grid on             % turn on the grid
 end 
-
