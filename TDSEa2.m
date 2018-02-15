@@ -16,10 +16,11 @@ V=diag(Vvec);
 H=T+V;
 [vecs,vals]=eig(H); % determining eigenvectors and eigenvalues
 [srtvecs,srtvals]=eigsort(vecs,vals); % sorting eigenvalues in ascending order
+size(srtvals);
 EtoX=srtvecs; % change from energy basis to position basis
 XtoE=inv(srtvecs); % change from position basis to energy basis
 psiE=zeros(pts,1); % vector of all zeros
-psiE([1,2,3])=1; % change position 1,2 in vector to 1
+psiE([2])=1; % change position 1,2 in vector to 1
 psiX=EtoX*psiE;
 
 %reference on how to shift on graph
@@ -32,15 +33,17 @@ psiX=EtoX*psiE;
 t=0; dt=0.1;
 for k=1:50
     psiEt=psiE.*exp(-i*diag(srtvals)*t/hbar);
-    %npsiEt=psiEt/norm(psiEt); % normalize vector of psiE dependent on time
+    psiEt=psiEt/norm(psiEt); % normalize vector of psiE dependent on time
+    % size(psiEt);
     psiXt=EtoX*psiEt;
     psiXt=psiXt/norm(psiXt); % normalize vector of psiX dependent on time
     rpsiXt=abs(psiXt).^2;
-    expE=real(psiEt'*(x.*psiEt));
+    expE=real(psiEt'*(srtvals*psiEt)); % determines energy expectation value in energy basis
+    %expE=real(psiXt'*(H*psiXt)); % determines energy expectation value in position basis
     %v=diag(srtvals);
     repvals=(ones(pts,1))*expE;
     snrpsiXt=rpsiXt+repvals; % shifted psiXt by energy
-    expX=real(psiXt'*(x.*psiXt)); % expectation value
+    expX=real(psiXt'*(x.*psiXt)); % expectation value for position
     figure(1)
     subplot(2,2,1)
     KLW_plot3(x,psiXt)
@@ -50,7 +53,7 @@ for k=1:50
     %plot(x,nrpsiXt) % probability density not shifted
     %plot(x,snrpsiXt(:,1)) % probability density shifted
     plot(x,snrpsiXt(:,1),expX,expE,'r *')  
-    axis([0 1 0 expE+0.015])
+    axis([0 1 expE-0.015 expE+0.015])
     text(0.2,expE+0.013,['E= ' num2str(expE)])
     drawnow
     t=t+dt;
