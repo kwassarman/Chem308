@@ -18,6 +18,9 @@ $$\begin{pmatrix} x_1 & x_2 & ... & x_n
 $$\begin{pmatrix} x_1\\x_2\\ \vdots \\x_n
 \end{pmatrix}$$
 
+Vectors can be represented in Matlab by the following code:
+ADD CODE
+
 Different operations can be done on vectors. *Scalar multiplication* takes the product of each element in the vector and the scalar, 
 
 $$c\begin{pmatrix} x_1\\x_2\\ \vdots \\x_n
@@ -30,4 +33,7 @@ $$\begin{pmatrix} x_1\\x_2\\\vdots\\ x_n
 \end{pmatrix}+\begin{pmatrix} y_1\\y_2\\\vdots \\y_n
 \end{pmatrix}=\begin{pmatrix} x_1+y_1\\x_2+y_2\\\vdots\\ x_n+y_n
 \end{pmatrix}$$
+
+When working with vectors for quantum mechanics, it is useful to be able to normalize vectors. A normalized vector has the sum of the square of its elements equal to 1. In order to get the normalized vector, you multiply the vector by the scalar $\displaystyle \frac
+1{||\vec v ||}$. This gives the unit vector, $\vec u= \frac 1{||\vec v ||} \vec v$, where $\||\vec v ||$ is the magnitude (or length) of the vector. 
 
