@@ -38,7 +38,7 @@ When working with vectors for quantum mechanics, it is useful to be able to norm
 
 $$\vec u= \frac 1{||\vec v ||} \vec v,$$
 
-where $\||\vec v ||$ is the magnitude (or length) of the vector. 
+where $||vec v||$ is the magnitude (or length) of the vector. 
 
 The *inner product* of vectors is important in quantum mechanics to be able to calculate observables from wavefunctions. The inner product is the product of corresponding elements and then adding the resulting products together. The result of doing an inner product operation is a scalar. 
 
