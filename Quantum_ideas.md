@@ -1,6 +1,6 @@
 {% include mathjax.html %}
 
-[Homepage](/README.md)/[Next](TISE.md)
+[Previous](Linear_Algebra.md)/[Next](TISE.md)
 
 # Summary of Quantum Ideas
 
