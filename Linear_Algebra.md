@@ -51,3 +51,7 @@ $<v,w>=\\xc+yd={\begin{pmatrix} x & y \end{pmatrix}} \begin{pmatrix} c\\d \end{p
 The inner product can also be used to determine the length and angle of vectors when taking the inner product of itself, 
 
 $$||\vec v||=\sqrt{\langle \vec v , \vecv \rangle}$$
+
+## Orthonormal Bases
+
+In quantum mechanics it is important to have 
