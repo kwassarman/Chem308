@@ -43,14 +43,12 @@ where $||\vec v||$ is the magnitude (or length) of the vector.
 The *inner product* of vectors is important in quantum mechanics to be able to calculate observables from wavefunctions. The inner product is the product of corresponding elements and then adding the resulting products together. The result of doing an inner product operation is a scalar. 
 
 $$\begin{pmatrix} x & y
-\end{pmatrix}\*\begin{pmatrix} c\\d
+\end{pmatrix}\ x \begin{pmatrix} c\\d
 \end(pmatrix}=\xc+yd$$
-
-$<v,w>=\\xc+yd={\begin{pmatrix} x & y \end{pmatrix}} \begin{pmatrix} c\\d \end{pmatrix}$
 
 The inner product can also be used to determine the length and angle of vectors when taking the inner product of itself, 
 
-$$||\vec v||=\sqrt{\langle \vec v , \vecv \rangle}$$
+$$||\vec v||=\sqrt{\langle \vec v , \vec v \rangle}$$
 
 ## Orthonormal Bases
 
