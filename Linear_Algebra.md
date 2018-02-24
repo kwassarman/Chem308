@@ -18,9 +18,6 @@ $$\begin{pmatrix} x_1 & x_2 & ... & x_n
 $$\begin{pmatrix} x_1\\x_2\\ \vdots \\x_n
 \end{pmatrix}$$
 
-Vectors can be represented in Matlab by the following code:
-ADD CODE
-
 Different operations can be done on vectors. *Scalar multiplication* takes the product of each element in the vector and the scalar, 
 
 $$c\begin{pmatrix} x_1\\x_2\\ \vdots \\x_n
