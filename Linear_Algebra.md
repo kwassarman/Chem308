@@ -32,5 +32,17 @@ $$\begin{pmatrix} x_1\\x_2\\\vdots\\ x_n
 \end{pmatrix}$$
 
 When working with vectors for quantum mechanics, it is useful to be able to normalize vectors. A normalized vector has the sum of the square of its elements equal to 1. In order to get the normalized vector, you multiply the vector by the scalar $\displaystyle \frac
-1{||\vec v ||}$. This gives the unit vector, $\vec u= \frac 1{||\vec v ||} \vec v$, where $\||\vec v ||$ is the magnitude (or length) of the vector. 
+1{||\vec v ||}$. This gives the unit vector, 
+
+$$\vec u= \frac 1{||\vec v ||} \vec v,$$
+
+where $\||\vec v ||$ is the magnitude (or length) of the vector. 
+
+## Inner Product
+
+Taking inner products of vectors is important in quantum mechanics to be able to calculate observables from wavefunctions. The inner product is the product of corresponding elements and then adding the resulting products together. The result of doing an inner product operation is a scalar. 
+
+$$\begin{pmatrix} x & y
+\end{pmatrix}\*\begin{pmatrix} c\\d
+\end(pmatrix}=\xc+yd$$
 
