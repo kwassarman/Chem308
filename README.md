@@ -7,7 +7,8 @@ This is a chemistry class that builds upon the topics learned in quantum chemist
 
 ## Table of Contents
 
-1. [Summary of Quantum Ideas](Quantum_ideas.md)
-2. [Time Independent Schrödinger Equation](TISE.md)
-3. [Paricle in a Box](PIB.md) 
-4. [Time Dependent Schrödinger Equation](TDSE.md) 
+1. [Linear Algebra Basics](Linear_algebra.md)
+2. [Summary of Quantum Ideas](Quantum_ideas.md)
+3. [Time Independent Schrödinger Equation](TISE.md)
+4. [Paricle in a Box](PIB.md)
+5. [Time Dependent Schrödinger Equation](TDSE.md) 
