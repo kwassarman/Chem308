@@ -18,13 +18,15 @@ $$\begin{pmatrix} x_1 & x_2 & ... & x_n
 $$\begin{pmatrix} x_1\\x_2\\ \vdots \\x_n
 \end{pmatrix}$$
 
-Different operations can be done on vectors. *Scalar multiplication* takes the product of each element in the vector and the scalar, 
+## Vector Operations
+
+*Scalar multiplication* takes the product of each element in the vector and the scalar, 
 
 $$c\begin{pmatrix} x_1\\x_2\\ \vdots \\x_n
 \end{pmatrix}=\begin{pmatrix} c x_1\\c x_2\\\vdots\\ c x_n
 \end{pmatrix}$$
 
-Vectors can also be added to each other by taking each element of the vector and adding it to the element in the same position. For vector addition, the vectors need to both be either column vectors or row vectors and also they need to be the same size.
+Vectors can also be *added* to each other by taking each element of the vector and adding it to the element in the same position. For vector addition, the vectors need to both be either column vectors or row vectors and also they need to be the same size.
 
 $$\begin{pmatrix} x_1\\x_2\\\vdots\\ x_n
 \end{pmatrix}+\begin{pmatrix} y_1\\y_2\\\vdots \\y_n
@@ -38,11 +40,10 @@ $$\vec u= \frac 1{||\vec v ||} \vec v,$$
 
 where $\||\vec v ||$ is the magnitude (or length) of the vector. 
 
-## Inner Product
-
-Taking inner products of vectors is important in quantum mechanics to be able to calculate observables from wavefunctions. The inner product is the product of corresponding elements and then adding the resulting products together. The result of doing an inner product operation is a scalar. 
+The *inner product* of vectors is important in quantum mechanics to be able to calculate observables from wavefunctions. The inner product is the product of corresponding elements and then adding the resulting products together. The result of doing an inner product operation is a scalar. 
 
 $$\begin{pmatrix} x & y
 \end{pmatrix}\*\begin{pmatrix} c\\d
 \end(pmatrix}=\xc+yd$$
 
+The inner product can also be used to determine the length and angle of vectors when taking the inner product of itself, $$||\vec v||=\sqrt{\langle \vec v , \vecv \rangle}.$$
