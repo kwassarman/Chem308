@@ -40,7 +40,7 @@ $$\vec u= \frac 1{||\vec v ||} \vec v.$$
 
 The *inner product* of vectors is important in quantum mechanics to be able to calculate observables from wavefunctions. The inner product is the product of corresponding elements and then adding the resulting products together. The result of doing an inner product operation is a scalar. 
 
-Let $\vec v=\begin{pmatrix} x\\y 
+Let $\vec v = \begin{pmatrix} x\\y 
 \end{pmatrix}$ and $\vec w=\begin{pmatrix} u\\v
 \end{pmatrix}$, then the \emph{inner product} of $\vec v$ and $\vec w$ is 
 $$\langle \vec v, \vec w \rangle =xu+yv.$$ 
