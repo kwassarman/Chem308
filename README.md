@@ -9,12 +9,18 @@ This is a chemistry class that builds upon the topics learned in quantum chemist
 
 ## Table of Contents
 
-1. [Linear Algebra Basics](Linear_Algebra.md)\
-    1.1. [Change of Basis](Change_Basis.md)\
+1. [Linear Algebra Basics](Linear_Algebra.md)
+
+    1.1. [Change of Basis](Change_Basis.md)
+    
     1.2. [Complex Numbers](Complex_Numbers.md) 
+    
 2. [Summary of Quantum Ideas](Quantum_ideas.md)
-3. [Time Independent Schrödinger Equation (TISE)](TISE.md)\
+3. [Time Independent Schrödinger Equation (TISE)](TISE.md)
+
     3.1. [Particle in a Box TISE](PIB.md)
-4. [Time Dependent Schrödinger Equation (TDSE)](TDSE.md)\
-    4.1. [Particle in a Box TDSE](PIB_TDSE.md)\
+4. [Time Dependent Schrödinger Equation (TDSE)](TDSE.md)
+
+    4.1. [Particle in a Box TDSE](PIB_TDSE.md)
+    
     4.2. [TDSE for Perturbed System](TDSE_PS.md)
