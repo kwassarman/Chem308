@@ -66,6 +66,10 @@ Normalizing vectors is useful for determining the probabilities of the measureme
 
 ## Orthonormal Bases
 
-In quantum mechanics it is important to have 
+In quantum mechanics it is important to have a basis of vectors that have unit length and are orthogonal to each other. This allows for all possible space to be represented. When working with orthonormal bases, it makes it easy to to express any vector as a linear combination of the basis vectors. For example, in a two dimensional world, there exist two vectors in the orthonormal basis. These vectors are $$\begin{pmatrix} 1\\0 \end{pmatrix}$$ and $$\begin{pmatrix} 0\\1 \end{pmatrix}$$. Therefore, any possible vector in two dimensional space can be represented as a linear combination of the two vectors. Such as, if you want to write $$\begin{pmatrix} -2\\5 \end{pmatrix} as a linear combination, the scalars -2 and 5 can be multiplied by the basis vectors as follows:
+
+$$\begin{pmatrix} -2\\5 \end{pmatrix} = -2\begin{pmatrix} 1\\0 \end{pmatrix} + 5\begin{pmatrix} 0\\1 \end{pmatrix}$$
+
+
 
 [Next](Change_Basis.md) (Change of Basis)
