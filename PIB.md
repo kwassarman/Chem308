@@ -12,7 +12,7 @@ The particle in a box model is used to describe the energy of a particle in cert
 
 The well can be defined by a certain length, L, and height at the sides. Initially can look at well with infinite walls (or as close as you can get in Matlab, $$10^6$$). This means that the observed particle must exists somewhere in the well and no where else in space. 
 
-!(/Potenwell.jpg)
+!(\Potenwell.jpg)
 
 ## Physical States of Particle 
 
