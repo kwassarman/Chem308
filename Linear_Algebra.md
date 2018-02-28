@@ -68,6 +68,4 @@ Normalizing vectors is useful for determining the probabilities of the measureme
 
 In quantum mechanics it is important to have 
 
-[Change of Basis](Change_Basis.md)/[Complex Numbers](Complex_Numbers.md)
-
-[Summary of Quantum Ideas](Quantum_ideas.md) 
+[Next](Change_Basis.md) (Change of Basis)
