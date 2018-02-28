@@ -16,4 +16,3 @@ This is a chemistry class that builds upon the topics learned in quantum chemist
 5. [Particle in a Box TISE](PIB.md)
 6. [Time Dependent Schrödinger Equation (TDSE)](TDSE.md)
 7. [Particle in a Box TDSE](PIB_TDSE.md)
-8. [TDSE for Perturbed System](TDSE_PS.md)
