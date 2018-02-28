@@ -54,7 +54,7 @@ $$\langle \vec v, \vec w \rangle =xu+yv.$$
 
 The inner product can also be used to determine the length and angle of vectors when taking the inner product of itself, 
 
-$$||\vec v||=\sqrt{\langle \vec v , \vec v \rangle}$$
+$$||\vec v||=\sqrt{\langle \vec v , \vec v \rangle}.$$
 
 #### Normalization
 
@@ -62,6 +62,8 @@ When working with vectors for quantum mechanics, it is useful to be able to norm
 1{||\vec v ||}$. This gives the unit vector, 
 
 $$\vec u= \frac 1{||\vec v ||} \vec v.$$
+
+Normalizing vectors is useful for determining the probabilities of the measurement results. For example, the probability of finding a particle is the square of the wavefunction and it is useful if the total probabilities add up 1. This allows you to easily determine the contribution of the different parts of the wavefunction. This will be discussed in more detail later.
 
 ## Orthonormal Bases
 
