@@ -14,27 +14,15 @@ where $$\hat{H}$$ is the Hamiltonian operator formed by the sum of the kinetic a
 
 Space and time are separable in the wavefunction if and only if $$\psi(x,t)$$ satisfies the time independent Schrödinger equation, which means the solutions are stationary states. And if the variables are separable, then $$\psi(x,t)$$ can be rewritten as,
 \begin{equation}\label{separation}
-    \psi(x,t)=\psi(x)\T(t)
+    \psi(x,t)=\psi(x) T(t)
 \end{equation}
 where $$T(t)$$ is always equal to $$e^{-i E_n t/\hbar}$$.
 
-Therefore, the TDSE can be written as 
+Therefore, $$psi(x,t) can be written as 
   \begin{equation}
-    \hat{H}\psi(x,t) = psi(x,t)e^{-i E_n t/\hbar}
+    \psi(x,t) = \psi(x)e^{-i E_n t/\hbar}
  \end{equation}
 
-However, if the system is for non-stationary states, then before doing the operation with the Hamiltonian operator you need to change the basis of your wavefunction.
-
-## Matlab
-Matlab can be used to plot the wavefunctions that are dependent on both position and time. Three plots are showed:
-
-  1. Wavefunciton in position basis over time in real and imaginary
-    
-  2. Wavefunction in energy basis over time in real and imaginary
-    
-  3. Probability density of position in real and shows expectation value and average energy.
-    
-Multiple states can be looked at together.
-[Time Independent Schrödinger Equation](TDSEa2.m)
+However, if the system is for non-stationary states, then before doing the operation with the Hamiltonian operator you need to change the basis of your wavefunction. Therefore, it is useful to use the vector form of the wavefunction and the matrix form for the Hamiltonian. In order to change from the position basis of the wavefunction to the energy basis, you need to use the inverse of the eigenvector matrix. This is shown on the next page with an application using particle in a box.
 
 [Next](PIB_TDSE.md) (Particle in a Box TDSE)
