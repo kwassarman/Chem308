@@ -10,7 +10,7 @@ A **wavefunction** $$(\psi)$$ is the complete description of the quantum state o
 
 When the wavefunction is expressed as a function, the position operator is 
 
-$$\xhat=x$$
+$$\hat{x}=x$$
 
 And therefore, when a wavefunction is operated with the position operator, the equation looks like
   
