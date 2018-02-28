@@ -8,7 +8,7 @@
 
 The time dependent Schrödinger describes all physically realizable states, and is defined by the equation:
   \begin{equation}\label{tdse}
-    \hat{H}\psi(x,t) = E\psi(x,t)
+    \hat{H}\psi(x,t) = E\psi(x,t) = i \hbar \frac{partial}{partial t} \psi(x,t)
 \end{equation}
 where $$\hat{H}$$ is the Hamiltonian operator formed by the sum of the kinetic and potential energy operators, and  $$\psi(x,t)$$ is a time- and space-dependent wavefunction.
 
