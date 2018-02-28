@@ -70,6 +70,6 @@ In quantum mechanics it is important to have a basis of vectors that have unit l
 
 $$\begin{pmatrix} -2\\5 \end{pmatrix} = -2\begin{pmatrix} 1\\0 \end{pmatrix} + 5\begin{pmatrix} 0\\1 \end{pmatrix}$$
 
-
+Wavefunctions when expressed as a vector can be broken down into a linear combination of the basis vectors covering all space. This is useful because then you can change between bases (discussed later).
 
 [Next](Change_Basis.md) (Change of Basis)
