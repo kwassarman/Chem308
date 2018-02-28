@@ -26,7 +26,7 @@ ADD EQUATIONS FOR WAVEFUNCTIONS
 
 When the function is expressed as a function, the momentum operator is
 
-$$\hat{p}=-i\
+$$\hat{p}=-i\hbar\frac{\partial}{\partial x}$$
 
   \begin{equation}\label{momentumop}
     \hat{p}\psi(x)=-i\hbar\frac{\partial}{\partial x}
