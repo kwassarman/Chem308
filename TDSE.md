@@ -2,7 +2,7 @@
 
 (For table of contents, visit the [homepage](/README.md))
 
-[Previous](PIB.md)/Next(PIB_TDSE.md)
+[Previous](PIB.md)/[Next](PIB_TDSE.md)
 
 # The Time Dependent Schrödinger Equation (TDSE)
 
