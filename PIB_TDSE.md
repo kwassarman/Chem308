@@ -18,7 +18,33 @@ Therefore, in order to get into the energy basis, you can multiply EtoX by the v
 psiE=zeros(pts,1); 
 psiE([n])=1;
 ```
+From here, you can use a loop in order to get the animation to go for a specified amount of time. 
 
+```Matlab
+t=0; dt=0.1;
+for k=1:50
+    psiEt=psiE.*exp(-i*diag(srtvals)*t/hbar);
+    psiEt=psiEt/norm(psiEt); % normalize vector of psiE dependent on time
+    psiXt=EtoX*psiEt;
+    psiXt=psiXt/norm(psiXt); % normalize vector of psiX dependent on time
+    rpsiXt=abs(psiXt).^2;
+    expE=real(psiEt'*(srtvals*psiEt)); % determines energy expectation value in energy basis
+    repvals=(ones(pts,1))*expE;
+    snrpsiXt=rpsiXt+repvals; % shifted psiXt by energy
+    expX=real(psiXt'*(x.*psiXt)); % expectation value for position
+    figure(1)
+    subplot(2,2,1)
+    KLW_plot3(x,psiXt)
+    subplot(2,2,2)
+    KLW_plot3(diag(srtvals),psiEt)
+    subplot(2,2,[3,4])
+    plot(x,snrpsiXt(:,1),expX,expE,'r *')  
+    axis([0 1 expE-0.015 expE+0.015])
+    text(0.2,expE+0.013,['E= ' num2str(expE)])
+    drawnow
+    t=t+dt;
+end
+```
 ## Start with Specified State
 
 We initially looked at the animation when a specific state was defined for n. The input of n could be a single value, which is a stationary state, or n could be multiple values, which is a non-stationary state. Below is a general output that represents the system of n=2 (if you want to see animation [open](TDSE2.md) in Matlab).
@@ -32,3 +58,33 @@ The plot on the upper left shows the position basis of the wavefunction overtime
 Sometimes you want to see what will happen to a particle if you start with specific probability density. For example, if you want to start with all the probability density starting on the left side of the box. 
 
 [Homepage](/README.md)
+
+###### Matlab Code for KLW_plot3
+```Matlab
+%% Plot complex valued vectors as 3D plots. The complex plane forms the
+%% backdrop for the plot and the eigenvalue axis (defining the space)
+%% projects out from that plane.
+        
+        s = 1; % 1/s defines the fraction of eigenvalue axis that is displayed
+        
+    % Begin by grabbing the real and imaginary parts of the vector psi,
+    % defining the length of the "space" axis, and defining a vector of 
+    % zeros that serve as the axis relative to which psi is plotted.
+        realpart = real(psi);   % extract the real part of psi
+        imagpart = imag(psi);   % extract the imaginary part of psi
+        n = length(basisaxis);  % number of points in each vector
+        bsl = zeros(n,1);       % define baseline as n zeros
+
+    % Create a three dimensional stem plot. The bases of the stems are 
+    % placed at the baseline "bsl" and the heads of the stems are displaced
+    % from the baseline by the real and imaginary values of each vector
+    % element
+        plot3(...
+          [basisaxis basisaxis]',[bsl realpart]',[bsl imagpart]','k',... % draw black stems
+          basisaxis,realpart,imagpart,'b.') % draw stem heads as blue dots
+        axis([min(basisaxis) max(basisaxis)/s -1 1  -1 1]); % set axis limits
+        pbaspect([3,1,1])   % fix aspect ratio of 3D plot
+        view([70,10])       % define the view angle
+grid on             % turn on the grid
+end 
+```
