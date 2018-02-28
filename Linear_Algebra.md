@@ -10,12 +10,12 @@ Linear algebra is the natural language of quantum mechanics, so it is important 
 
 There are two kinds of vectors: 
 
-1.  **Row** vectors are 1 x m dimensions and consist of a row with m elements,
+I.  **Row** vectors are 1 x m dimensions and consist of a row with m elements,
 
 $$\begin{pmatrix} x_1 & x_2 & ... & x_n
 \end{pmatrix}.$$
 
-2.  **Column** vectors are m x 1 dimensions and consist of a column with m elements, 
+II.  **Column** vectors are m x 1 dimensions and consist of a column with m elements, 
 
 $$\begin{pmatrix} x_1\\x_2\\ \vdots \\x_n
 \end{pmatrix}.$$
