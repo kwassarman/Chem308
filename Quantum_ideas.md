@@ -10,13 +10,21 @@ A **wavefunction** $$(\psi)$$ is the complete description of the quantum state o
 
 ## Position Operator $$(\hat{x})$$ and Momentum Operator $$(\hat{p})$$
 
-When the wavefunction is expressed as a function, the position operator is $$\hat{x}=x$$ and the momentum operator is $$\hat{p}=-i\hbar\frac{\partial}{\partial x}.$$
+When the wavefunction is expressed as a function, the position operator is 
+
+$$\hat{x}=x$$ 
+
+and the momentum operator is 
+
+$$\hat{p}=-i\hbar\frac{\partial}{\partial x}.$$
 
 The *Heisenburg Uncertainty Principle* says that the uncertainty of position and momentum can never both be know absolutely. This is because the functions that satisfy the position operator do not satisfy the momentum operator and vice versa. The principle says the product of uncertainty of position and momentum is greater than or equal to $$\frac{\hbar}{2}$$. 
 
 ## Kinetic Energy Operator $$(\hat{T})$$
 
-When the wavefunction is expressed as a function, the position operator is $$\hat{T}= -\frac{\hbar^2}{2m}\frac{\partial ^2}{\partial x^2}$$
+When the wavefunction is expressed as a function, the position operator is 
+
+$$\hat{T}= -\frac{\hbar^2}{2m}\frac{\partial ^2}{\partial x^2}$$
 
 And therefore, when a wavefunction is operated with the position operator, the equation looks like
 
@@ -31,13 +39,13 @@ The following is the Matlab code for the kinetic energy operator matrix:
     % The following is defining the constant
       c=-(hbar.^2)/(2.*m);
     % The code for second derviative matrix
-      A=-2*eye(pts);        % twos on the diagonal on matrix
+      A=-2*eye(pts);        % twos on the diagonal 
       b=ones(pts-1,1);      % vector of 1
-      B=diag(b,-1);         % negative ones below diagnol on matrix
-      B2=diag(b,1);         % ones above diagnol on matrix
-      D=A+B+B2;             % adds three matrices together to get wanted second derviative matrix
+      B=diag(b,-1);         % negative ones below diagnol
+      B2=diag(b,1);         % ones above diagnol 
+      D=A+B+B2;             % second derviative matrix
     % The code for the kinetic energy operator
-      T=c.*D;               % scalar multiplication of constant and second derivative matrix
+      T=c.*D;          
      
 ## Hamiltonian Operator $$(\hat{H})$$
 
