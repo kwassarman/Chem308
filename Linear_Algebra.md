@@ -1,6 +1,6 @@
 {% include mathjax.html %}
 
-[Homepage](/README.md)/[Next](Quantum_ideas.md)
+[Homepage](/README.md)/[Next](Change_Basis.md)
 
 # Linear Algebra Basics
 
