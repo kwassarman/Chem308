@@ -28,7 +28,7 @@ This is the Matlab code for making the potential well matrix as well as plotting
 
 The potential well can also be modified so that the walls are not infinitely high or there is a bump in the middle of the well. This will change the behavior of the particle because it is no longer trapped in the box. Also if there is a bump in the middle, the particle can still occupy the entire box, however, the probability in certain areas will decrease because the particle is less likely to get over the bump in the potential energy. Below is an example of a potential well with a bump in the potential energy well.
 
-![Potential well2](/Potenwell2.jpg)
+![Potential well2](/Potenwell_2.jpg)
 
 This is the Matlab code for modifying the potential well matrix.
 ```Matlab
