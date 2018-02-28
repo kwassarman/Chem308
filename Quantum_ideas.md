@@ -35,18 +35,18 @@ And therefore, when a wavefunction is operated with the position operator, the e
 The kinetic energy operator can also be expressed as a matrix that can be then be used to operate on the wavefunction vector. The matrix for the kinetic energy operator has two different parts (1) the constant $$-\frac{\hbar^2}{2m}$$ and (2) the second derivative matrix, which has twos on the diagonal, negative ones below the diagonal, and ones above the diagonal. 
 
 The following is the Matlab code for the kinetic energy operator matrix:
-
-    % The following is defining the constant
-      c=-(hbar.^2)/(2.*m);
-    % The code for second derviative matrix
-      A=-2*eye(pts);        % twos on the diagonal 
-      b=ones(pts-1,1);      % vector of 1
-      B=diag(b,-1);         % negative ones below diagnol
-      B2=diag(b,1);         % ones above diagnol 
-      D=A+B+B2;             % second derviative matrix
-    % The code for the kinetic energy operator
-      T=c.*D;          
-     
+```Matlab
+% The following is defining the constant
+c=-(hbar.^2)/(2.*m);
+% The code for second derviative matrix
+A=-2*eye(pts);        % twos on the diagonal 
+b=ones(pts-1,1);      % vector of 1
+B=diag(b,-1);         % negative ones below diagnol
+B2=diag(b,1);         % ones above diagnol 
+D=A+B+B2;             % second derviative matrix
+% The code for the kinetic energy operator
+T=c.*D;          
+``` 
 ## Hamiltonian Operator $$(\hat{H})$$
 
 The Hamiltonian operator gives the total energy of a system. It is the sum of the kinetic energy operator and the potential energy operator. The potential energy operator is dependent on the model that is being used (such as [particle in a box](PIB.md), particle in a ring, harmonic ocsillator, etc.). Once the Hamiltonian is determined based on the potential energy operator, the Hamiltonian operator can be used on the wavefunction to determine the total energy of a particle in different states. 
