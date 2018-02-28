@@ -18,7 +18,7 @@ $$\hat{H} = \frac{\hbar^2}{2m}\frac{\partial^2}{\partial x^2} + V(x)$$
 
 where $$m$$ is the mass of the particle and $$V(x)$$ is the potential energy operator. The potential energy operator is dependent on what model you are using for your system. The stationary state energies are equal to 
 
-$$\psi_n=sqrt(frac{2}{l})sin(frac{n(pi)x}{l})
+$$\psi_n=sqrt(frac{2}{l})sin(frac{n(pi)x}{l})$$
 
 where $$n$$ is the specified stationary state and $$l$$ is the length of the box. 
 
