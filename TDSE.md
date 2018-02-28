@@ -2,7 +2,7 @@
 
 (For table of contents, visit the [homepage](/README.md))
 
-[Previous](PIB.md)/Next
+[Previous](PIB.md)/Next(PIB_TDSE.md)
 
 # The Time Dependent Schrödinger Equation (TDSE)
 
@@ -35,3 +35,4 @@ Matlab can be used to plot the wavefunctions that are dependent on both position
 Multiple states can be looked at together.
 [Time Independent Schrödinger Equation](TDSEa2.m)
 
+[Next](PIB_TDSE.md) (Particle in a Box TDSE)
