@@ -18,12 +18,11 @@ Therefore, in order to get into the energy basis, you can multiply EtoX by the v
 psiE=zeros(pts,1); 
 psiE([n])=1;
 ```
-From here, you can use a loop in order to get the animation to go for a specified amount of time. 
-
+From here, you can use a loop in order to get the animation to go for a specified amount of time. This means that you can go through a certain number of time points and determine the position and energy at that point and graph it. Then you can continue to the next time point. This will result in an animation over time.
 ```Matlab
 t=0; dt=0.1;
-for k=1:50
-    psiEt=psiE.*exp(-i*diag(srtvals)*t/hbar);
+for k=1:50 % number of time points
+    psiEt=psiE.*exp(-i*diag(srtvals)*t/hbar); % operating with T
     psiEt=psiEt/norm(psiEt); % normalize vector of psiE dependent on time
     psiXt=EtoX*psiEt;
     psiXt=psiXt/norm(psiXt); % normalize vector of psiX dependent on time
@@ -55,11 +54,13 @@ The plot on the upper left shows the position basis of the wavefunction overtime
 
 ## Start with Probability Density
 
-Sometimes you want to see what will happen to a particle if you start with specific probability density. For example, if you want to start with all the probability density starting on the left side of the box. 
+Sometimes you want to see what will happen to a particle if you start with specific probability density. For example, if you want to start with all the probability density starting on the left side of the box. In order to do this, you begin with the wavefunciton in the position basis. The wavefunction should be a Gaussian curve because this function has the lowest uncertainty when doing the Fourier Transform between the position and momentum bases. Therefore, you want to define the wavefunction as $$\psi_x=e^{\gamma(x-a)^2}e^{-i k x}$$ because this is the equation for a Gaussian curve. From here the rest is the same as if you were starting with a specified state. Below is an image of a Gaussian curve with the same three plots as above. Again, to see the animation [open](TDSEa3.m) this in Matlab.
+
+![Gaussian](\Gausian.jpg)
 
 [Homepage](/README.md)
 
-###### Matlab Code for KLW_plot3
+#### Matlab Code for KLW_plot3
 ```Matlab
 %% Plot complex valued vectors as 3D plots. The complex plane forms the
 %% backdrop for the plot and the eigenvalue axis (defining the space)
