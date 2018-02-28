@@ -2,7 +2,7 @@
 
 (For table of contents, visit the [homepage](/README.md))
 
-[Previous](Complex_Numbers.md)/[Next](TISE.md)
+[Previous](Change_Basis.md)/[Next](TISE.md)
 
 # Summary of Quantum Ideas
 
