@@ -10,10 +10,36 @@ The particle in a box model is used to describe the energy of a particle in cert
 
 ## Potential Energy Well
 
-The well can be defined by a certain length, L, and height at the sides. Initially can look at well with infinite walls (or as close as you can get in Matlab, $$10^6$$). This means that the observed particle must exists somewhere in the well and no where else in space. 
+The well can be defined by a certain length, L, and height at the sides. Initially can look at well with infinite walls (or as close as you can get in Matlab, $$10^6$$). This means that the observed particle must exists somewhere in the well and no where else in space. Below is an image of a well with 'infinite' walls and can be used as the potential energy matrix for the Hamiltonian operator.
 
 ![Potential well](/Potenwell_1.jpg)
 
+This is the Matlab code for making the potential well matrix as well as plotting the potential well.
+```Matlab
+% Creating Potential Energy Matrix
+  w=3 % number of points within infinite wall
+  pts=250; % number of discretized points
+  Vvec=zeros(pts,1); % column vector of all zeros
+  Vvec([1:w,(end-(w-1)):end])=10E6; % infinite walls at end
+  V=diag(Vvec); % changes vector into matrix
+% Plotting Potential Energy Matrix
+  figure(1);plot(x,Vvec,'r'); % r will turn line red
+```
+
+The potential well can also be modified so that the walls are not infinitely high or there is a bump in the middle of the well. This will change the behavior of the particle because it is no longer trapped in the box. Also if there is a bump in the middle, the particle can still occupy the entire box, however, the probability in certain areas will decrease because the particle is less likely to get over the bump in the potential energy. Below is an example of a potential well with a bump in the potential energy well.
+
+![Potential well2](/Potenwell2.jpg)
+
+This is the Matlab code for modifying the potential well matrix.
+```Matlab
+% Modifiying Potential Matrix
+  w=3 % number of points within infinite wall
+  pts=250; % number of discretized points
+  Vvec=zeros(pts,1); % same as above
+  Vvec([1:w,(end-(w-1)):end])=10E6; % same as above
+  Vvec([120:130])=(10E6)/3; % puts a bump in the middle
+  V=diag(Vvec); % same as above
+```
 ## Physical States of Particle 
 
 There are different physical states that you can determine about the particle in the well based on which operator you use. Such as, if you want to determine the position of the particle at the ground state, then you would use the position operator to generate the observable of the location of the particle. And you want to determine the average position of the particle when at multiple states, you can use an expectation value (average position) based upon the possible states the particle can be in. This can also be done for momentum and energy. Such as if you want to determine the energy of the particle when in the ground state, you can use the Hamiltonian operator on the wave function. Below is a picture of the first five energy states for an electron in an infinite box.
