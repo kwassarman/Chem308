@@ -4,15 +4,16 @@
 
 # Summary of Quantum Ideas
 
-A *wavefunction* ($Psi$) is the complete description of the quantum state of a particle. Wavefunctions can be expressed as a function or matrix of state vectors. It is often easier to work with wavefunctions when expressed in a matrix of state vectors. Any physical property, called *observables*, of a particle can be extracted from the wavefunction. Observables can be determined by operating on the wave function using different operators, such as the position or energy operator. Operators are matrices that can be multiplied to the wavefunction matrix and result in a matrix of the observables.
+A **wavefunction** $$(\psi)$$ is the complete description of the quantum state of a particle. Wavefunctions can be expressed as a function or matrix of state vectors. It is often easier to work with wavefunctions when expressed in a matrix of state vectors. Any physical property, called **observables**, of a particle can be extracted from the wavefunction. Observables can be determined by operating on the wave function using different operators, such as the position or energy operator. Operators are matrices that can be multiplied to the wavefunction matrix and result in a matrix of the observables.
 
 ## Position Operator (X)
 
 When the wavefunction is expressed as a function, the position operator is 
-  \begin{equation}\label{position}
-    \mathcal{X}=x
-\end{equation}
+
+$$\xhat=x$$
+
 And therefore, when a wavefunction is operated with the position operator, the equation looks like
+  
   \begin{equation}\label{positionop}
     \mathcal{X}\psi(x)=x\psi(x)
 \end{equation}
