@@ -25,6 +25,6 @@ Therefore, $$\psi(x,t)$$ can be written as
 
 However, if the system is for non-stationary states, then before doing the operation with the Hamiltonian operator you need to change the basis of your wavefunction. Therefore, it is useful to use the vector form of the wavefunction and the matrix form for the Hamiltonian. In order to change from the position basis of the wavefunction to the energy basis, you need to use the inverse of the eigenvector matrix. This is shown on the next page with an application using particle in a box.
 
-The advantage of using the TDSE is that you can see how a system changes over time. This is more realistic because systems do not exist in a static state. Such as, TDSE can be used to model the molecular orbitals of an H_2 molecule that is a combination of the atomic orbitals of each hydrogen.
+The advantage of using the TDSE is that you can see how a system changes over time. This is more realistic because systems do not exist in a static state. Such as, TDSE can be used to model the molecular orbitals of an $$H_2$$ molecule that is a combination of the atomic orbitals of each hydrogen.
 
 [Next](PIB_TDSE.md) (Particle in a Box TDSE)
