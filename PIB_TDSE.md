@@ -8,6 +8,17 @@
 
 The general set up of PIB for The Time Dependent Schrödinger Equations is similar to that of The Time Independent Schrödinger Equation. The potential well, Hamiltonian operator, eigenvalues, and eigenvectors are the same as in the TISE PIB. However, because the TDSE evolves with time, the plot now has to be an animation to represent the progression of time. 
 
+From the PIB for TISE, the wavefunction vector is defined in position space. In order to switch between the position and energy bases, the following Matlab code can be used:
+```Matlab
+EtoX=vecs; 
+XtoE=inv(vecs);
+```
+Therefore, in order to get into the energy basis, you can multiply EtoX by the vector of a specific state you want in the energy basis. For example, if you want the second state in the energy basis, you can use the following vector $$\psi_E=\begin{pmatrix} 0\\1\\0\\ \vdots \\ 0 \end{pmatrix}. The following is the Matlab code that can be used to get the vector of the wanted $$\psi_E$$:
+```Matlab
+psiE=zeros(pts,1); 
+psiE([n])=1;
+```
+
 ## Start with Specified State
 
 We initially looked at the animation when a specific state was defined for n. The input of n could be a single value, which is a stationary state, or n could be multiple values, which is a non-stationary state. Below is a general output that represents the system of n=2 (if you want to see animation [open](TDSE2.md) in Matlab).
