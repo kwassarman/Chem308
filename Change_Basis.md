@@ -2,9 +2,7 @@
 
 (For table of contents, visit [homepage](/README.md))
 
-[Linear Algebra Basics](Linear_Algebra.md)
-
-[Complex Numbers](Complex_Numbers.md)/[Quantum Ideas](Quantum_ideas.md)
+[Previous](Linear_Algebra.md)/[Next](Complex_Numbers.md)
 
 # Change of Basis
 
