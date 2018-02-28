@@ -24,20 +24,20 @@ And therefore, when a wavefunction is operated with the position operator, the e
     \hat{T}\psi(x)=t\psi(x)
 \end{equation}
 
-The kinetic energy operator can also be expressed as a matrix that can be then be used to operate on the wavefunction vector. The matrix for the kinetic energy operator 
+The kinetic energy operator can also be expressed as a matrix that can be then be used to operate on the wavefunction vector. The matrix for the kinetic energy operator has two different parts (1) the constant $$-\frac{\hbar^2}{2m}$$ and (2) the second derivative matrix, which has twos on the diagonal, negative ones below the diagonal, and ones above the diagonal. 
 
 The following is the Matlab code for the kinetic energy operator matrix:
 
     % The following is defining the constant
-      c=-(hbar.^2)/(2.*m)
+      c=-(hbar.^2)/(2.*m);
     % The code for second derviative matrix
       A=-2*eye(pts);        % twos on the diagonal on matrix
       b=ones(pts-1,1);      % vector of 1
-      B=diag(b,-1);         % ones below diagnol on matrix
+      B=diag(b,-1);         % negative ones below diagnol on matrix
       B2=diag(b,1);         % ones above diagnol on matrix
       D=A+B+B2;             % adds three matrices together to get wanted second derviative matrix
     % The code for the kinetic energy operator
-      T=c.*D                % scalar multiplication of constant and second derivative matrix
+      T=c.*D;               % scalar multiplication of constant and second derivative matrix
      
 ## Hamiltonian Operator $$(\hat{H})$$
 
