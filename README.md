@@ -1,3 +1,5 @@
+{% include mathjax.html %}
+
 # Topics in Physical Chemistry
 
 ## Bates College
