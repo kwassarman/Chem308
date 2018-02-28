@@ -27,7 +27,7 @@ H=T+V; % Hamilotian operator matrix (H)
 
 [vecs,vals]=eig(H); % determining eigen vectors and eigenvalues
 [srtvecs,srtvals]=eigsort(vecs,vals); % sorting eigenvalues in ascending order
-sc=100;
+sc=-100;
 srtvecs=sc*srtvecs;
 v=diag(srtvals); % vector of sorted eigenvalues
 % figure(5)
