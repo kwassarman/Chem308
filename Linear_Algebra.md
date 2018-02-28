@@ -30,7 +30,7 @@ $$c\begin{pmatrix} x_1\\x_2\\ \vdots \\x_n
 \end{pmatrix}=\begin{pmatrix} c x_1\\c x_2\\\vdots\\ c x_n
 \end{pmatrix}$$
 
-Matrix scalar multiplication is similar to vector scalar multiplication. Each element in the matrix is multiplied by the scalar. This is useful for different operators, such as momentum and the Hamiltonian, because the operator involves multiplying by a constant number. In the case of momentum the constant is $$-i\hbar$$ and for the Hamiltonian the constant is $$\frac{-\hbar^2}{2m}$$. 
+Matrix scalar multiplication is similar to vector scalar multiplication. Each element in the matrix is multiplied by the scalar. This is useful for different operators, such as momentum and the Hamiltonian, because the operator involves multiplying by a constant number. In the case of momentum the constant is $$-i\hbar$$ and of kinetic energy the constant is $$\frac{-\hbar^2}{2m}$$. 
 
 #### Vector Addition
 
