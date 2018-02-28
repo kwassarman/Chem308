@@ -13,7 +13,7 @@ From the PIB for TISE, the wavefunction vector is defined in position space. In 
 EtoX=vecs; 
 XtoE=inv(vecs);
 ```
-Therefore, in order to get into the energy basis, you can multiply EtoX by the vector of a specific state you want in the energy basis. For example, if you want the second state in the energy basis, you can use the following vector $$\psi_E=\begin{pmatrix} 0\\1\\0\\ \vdots \\ 0 \end{pmatrix}. The following is the Matlab code that can be used to get the vector of the wanted $$\psi_E$$:
+Therefore, in order to get into the energy basis, you can multiply EtoX by the vector of a specific state you want in the energy basis. For example, if you want the second state in the energy basis, you can use the following vector $$\psi_E=\begin{pmatrix} 0\\1\\0\\ \vdots \\ 0 \end{pmatrix}$$. The following is the Matlab code that can be used to get the vector of the wanted $$\psi_E$$:
 ```Matlab
 psiE=zeros(pts,1); 
 psiE([n])=1;
