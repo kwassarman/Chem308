@@ -18,7 +18,7 @@ Space and time are separable in the wavefunction if and only if $$\psi(x,t)$$ sa
 \end{equation}
 where $$T(t)$$ is always equal to $$e^{-i E_n t/\hbar}$$.
 
-Therefore, $$psi(x,t) can be written as 
+Therefore, $$psi(x,t)$$ can be written as 
   \begin{equation}
     \psi(x,t) = \psi(x)e^{-i E_n t/\hbar}
  \end{equation}
