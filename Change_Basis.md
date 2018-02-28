@@ -16,4 +16,7 @@ Therefore, the wavefunction can be expressed as a linear combination of vectors 
     \psi(x) = c_1\hat{x_1} + c_2\hat{x_2} + c_3\hat{x_3} + ... + c_n\hat{x_n}
 \end{equation}
 
+Each $$\hat{x_j}$$ is a vector of all zeros except for a 1 at the j position. Therefore, in order to get a delta function at a specific $$j$$ position, you need to have $$c_j$$ be a nonzero number. Equation 1 above can be rewritten in vector form,
 
+  \begin{equation}\label{basis_vector}
+    \psi(x) = c_1\ 1\\0\\ \vdots \\0 +
