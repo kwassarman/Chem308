@@ -49,8 +49,7 @@ The inner product of vectors is important in quantum mechanics to be able to cal
 
 Let $$\vec v = \begin{pmatrix} x\\y 
 \end{pmatrix}$$ and $$\vec w=\begin{pmatrix} u\\v
-\end{pmatrix}$$, then the $$\emph{inner product}$$ of $$\vec v$$ and $$\vec w$$ is 
-$$\langle \vec v, \vec w \rangle =xu+yv.$$ 
+\end{pmatrix}$$, then the inner product of $$\vec v$$ and $$\vec w$$ is $$\langle \vec v, \vec w \rangle =xu+yv.$$ 
 
 The inner product can also be used to determine the length and angle of vectors when taking the inner product of itself, 
 
