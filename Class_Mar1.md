@@ -56,7 +56,13 @@ Then we can add $$\psi_{(x,t)}$$ to both sides of the equation:
     \frac{\Delta t}{i\hbar}\hat{H}\psi_{(x,t)}+\psi_{(x,t)}=\psi_{(x,t+\Delta t)}
 \end{equation}
 
-At this point we have solved for $$\psi_{(x,t+\Delta t)}$$ but we can further simplify what it equal to by factoring out $$psi_{(x,t)}$$ on the other side of the equation. This will result in an operator being performed on $$psi_{(x,t)}$$.
+At this point we have solved for $$\psi_{(x,t+\Delta t)}$$. If we put $$\Delta\psi_{(x,t)}$$ back in we end up with 
+
+$$\psi_{(x,t+\Delta t)}=\Delta\psi_{(x,t)}+\psi_{(x,t)}.$$
+
+This makes sense because the new wavefunction is the original wavefunction plus the change in the wavefunction. 
+
+We can further simplify equation 6 by factoring out $$psi_{(x,t)}$$ on the other side of the equation. This will result in an operator operating on $$psi_{(x,t)}$$.
 
 #### Step 7
 
@@ -65,3 +71,6 @@ Factoring out $$psi_{(x,t)}$$:
     \psi_{(x,t+\Delta t)}=\psi_{(x,t)}(\frac{\Delta t}{i\hbar}\hat{H}+1)
 \end{equation}
 
+At this point we have the new wavefunction equal to an operator that you can use to operate on your original wavefunction. The operator consists of the sum of two matrices where one represents the constants and Hamiltonian operator and the other is the scalar 1. The Hamiltonian operator will be the same matrix that has been previously defined and you can multiply the constants as a scalar to the matrix. And in order to add 1 as a matrix, this will be the identity matrix with the same dimensions as the Hamiltonian. Therefore, the operation will be the matrix times the original wavefunction to give the new wavefunction after time, $$\Delta t$$. 
+
+In order to visualize the animation, this operation can be put in a for loop in which you set $$\Delta t$$ and use the output of one operation as the input of the next. And so each new wavefunction is plotted and you can visualize what occurs over time. However, if you make $$\Delta t$$ too large, uncertainty will accumulate over time. 
