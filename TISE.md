@@ -14,7 +14,7 @@ where $$\hat{H}$$ is the Hamiltonian operator that is the sum of the kinetic and
 
 When using functions to represent the wavefunction, the Hamiltonian is
 
-$$\hat{H} = \frac{\hbar^2}{2m}\frac{\partial^2}{\partial x^2} + V(x)$$
+$$\hat{H} = -\frac{\hbar^2}{2m}\frac{\partial^2}{\partial x^2} + V(x)$$
 
 where $$m$$ is the mass of the particle and $$V(x)$$ is the potential energy operator. The potential energy operator is dependent on what model you are using for your system. The stationary state energies are equal to 
 
