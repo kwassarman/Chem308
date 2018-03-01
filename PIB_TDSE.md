@@ -56,7 +56,7 @@ The plot on the upper left shows the position basis of the wavefunction overtime
 
 ## Start with Probability Density
 
-Sometimes you want to see what will happen to a particle if you start with specific probability density. For example, if you want to start with all the probability density starting on the left side of the box. In order to do this, you begin with the wavefunciton in the position basis. The wavefunction should be a Gaussian curve because this function has the lowest uncertainty when doing the Fourier Transform between the position and momentum bases. Therefore, you want to define the wavefunction as $$\psi_x=e^{\gamma(x-a)^2}e^{-i k x}$$ because this is the equation for a Gaussian curve. From here the rest is the same as if you were starting with a specified state. Below is an image of a Gaussian curve with the same three plots as above. Again, to see the animation [open](TDSEa3.m) this in Matlab.
+Sometimes you want to see what will happen to a particle if you start with specific probability density. For example, if you want to start with all the probability density starting on the left side of the box. In order to do this, you begin with the wavefunciton in the position basis. The wavefunction should be a Gaussian curve because this function has the lowest uncertainty when doing the Fourier Transform between the position and momentum bases. Therefore, you want to define the wavefunction as $$\psi_x=e^{\gamma(x-a)^2}e^{-i k x}$$ because this is the equation for a Gaussian curve. From here the rest is the same as if you were starting with a specified state. Below is an image of a Gaussian curve with the same three plots as above. Again, to see the animation [open](TDSEa4.m) this in Matlab.
 
 ![Gaussian](/Gausian.jpg)
 
