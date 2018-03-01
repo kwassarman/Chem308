@@ -52,7 +52,7 @@ We multiply both sides by $$\frac{\Delta t}{i\hbar}$$ to the other side of the e
 #### Step 6
 
 Then we can add $$\psi_{(x,t)}$$ to both sides of the equation:
-\begin{equation}\label{delta5}
+\begin{equation}\label{delta6}
     \frac{\Delta t}{i\hbar}\hat{H}\psi_{(x,t)}+\psi_{(x,t)}=\psi_{(x,t+\Delta t)}
 \end{equation}
 
