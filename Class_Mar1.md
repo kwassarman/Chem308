@@ -99,7 +99,7 @@ $$\hat{H}=-\frac{\hbar^2}{2m}\frac{\partial^2}{\partial x^2}+V(x)$$
 
 **6.** Therefore, the only thing that affects the change over time of the wavefunction is the second partial derivative, $$\frac{\partial^2}{\partial x^2}$$, in the Hamiltonian. Lets look at the two graphs below and discuss which of the two has a larger second derivative:
 
-![cos(x)](/cos(x).png)  ![cos(6x)](/cos(6x).png)
+<img ![cos(x)](/cos(x).png) width="300">  ![cos(6x)](/cos(6x).png)
 
 The one on the right has a larger second derivative because it has more "bumps" in the wavefunction. Therefore, the wavefunction on the right will have a larger change in the wavefunction over time versus the one on the left. This makes sense if you think back to the animations on the [TDSE PIB page](PIB_TDSE.md). For lower states of a wavefunction, it rotates slower overtime versus a higher state wavefunction. Below is an animation of n=2, 3, and 4, respectively.
 
