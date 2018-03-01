@@ -18,7 +18,7 @@ This is the TDSE with the partial derivative $$\frac{\partial\psi_{(x,t)}}{\part
 #### Step 2
 
 We can replace the partials with deltas:
-  \begin{equation}\label{delta}
+  \begin{equation}\label{delta2}
     \hat{H}\psi_{(x,t)}=i\hbar\frac{\Delta\psi_{(x,t)}}{\Delta t}
 \end{equation}
 
@@ -27,16 +27,17 @@ Now we have a ratio of the change in the wavefunction over the change in time, $
 #### Step 3
 
 We can rewrite $$\Delta\psi_{(x,t)}$$ as the difference between two states:
-\begin{equation}\label{delta}
+\begin{equation}\label{delta3}
     \Delta\psi_{(x,t)}=\psi_{(x,t+\Delta t)}-\psi_{(x,t)}
 \end{equation}
 
-In order to be able to graph the new wave function at a certain time, we need to solve equation 3 aboe for $$\psi_{(x,t+\Delta t)}$$ because this is the new state after a time $$\Delta t$$. 
+In order to be able to graph the new wave function at a certain time, we need to solve equation 3 above for $$\psi_{(x,t+\Delta t)}$$ because this is the new state after a time $$\Delta t$$. 
 
 #### Step 4
 
 We can plug equation 3 in for $$\Delta\psi_{(x,t)}$$ in equation 2:
-\begin{equation}\label{delta}
+\begin{equation}\label{delta4}
     \hat{H}\psi_{(x,t)}=i\hbar\frac{\psi_{(x,t+\Delta t)}-\psi_{(x,t)}}}{\Delta t}
 \end{equation}
 
+Now we have the new wavefunction that we want to solve for. 
