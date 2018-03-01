@@ -75,7 +75,7 @@ The constants are currently defined as 1 so the numbers are easier to work with 
 
 ## Limitations Using Time Indpendent Schrödinger
 
-The energies of the particle in the constrained infinite region of space is quantized, and the energies and $$\Psi$$ of the particle are labeled by the principle quantum number, n. Because the time independent Schrödinger is describing a specific stationary state, when the principle quantum number, n, is chosen for either the energy or $$\Psi$$, then it is also chosen for the other. For example, if the energy is for n=1, then $$\Psi$$ is also for n=1. This means, that only one quantum state of the particle at a time. (Above picture shows the 5 different stationary states plotted on same graph).
+The energies of the particle in the constrained infinite region of space is quantized, and the energies and $$\psi$$ of the particle are labeled by the principle quantum number, n. Because the time independent Schrödinger is describing a specific stationary state, when the principle quantum number, n, is chosen for either the energy or $$\psi$$, then it is also chosen for the other. For example, if the energy is for n=1, then $$\psi$$ is also for n=1. This means, that only one quantum state of the particle at a time. (Above picture shows the 5 different stationary states plotted on same graph).
 
 [Next](TDSE.md) Time Dependent Schrödinger Equation
 
