@@ -6,6 +6,8 @@
 
 Today in class we were trying to write code for TDSE but instead of using [differentials](TDSE.md) we wanted to use differences. Although using difference for graphing will result in uncertainty overtime, it explains what is happening with the TDSE in a different way. Below I will show the steps converting the TDSE with the differential to the difference with explanations after each step.
 
+### Determining Difference Equation
+
 #### Step 1
 
 We initally start with the following equation:
@@ -89,5 +91,14 @@ $$\Delta\psi_{(x,t)}=\frac{\Delta t}{i\hbar}\hat{H}\psi_{(x,t)}$$
 
 **3.** Therefore, this leaves only one thing left that could be affecting the change to be different based on the wavefunction and this is        the Hamiltonian operator:
 
-$$\hat{H}=-\frac{-\hbar^2}{2m}\frac{\partial^2}{\partial x^2}$$
+$$\hat{H}=-\frac{\hbar^2}{2m}\frac{\partial^2}{\partial x^2}+V(x)$$
 
+**4.** Again, $$-\frac{\hbar^2}{2m}$$ is a constant so will always have the same affect on the change. However, it is interesting to note that as mass increases the change in the wavefunctions gets smaller and on the macroscopic level the change is basically nonexistent. This has to do with the *Correspondence Principle* which states that as particles get larger everything begins to look continuous.
+
+**5.** The operator $$V(x)$$ stays constant for the system (at least unless you also have the potential changing over time) and, therefore, again has the same affect on the again
+
+**6.** Therefore, the only thing that affects the change over time of the wavefunction is the second partial derivative, $$\frac{\partial^2}{\partial x^2}$$, in the Hamiltonian. Lets look at the two graphs below and discuss which of the two has a larger second derivative:
+
+The one on the right has a larger second derivative because it has more "bumps" in the wavefunction. Therefore, the wavefunction on the right will have a larger change in the wavefunction over time versus the one on the left. This makes sense if you think back to the animations on the [TDSE PIB page](PIB_TDSE.md). For lower states of a wavefunction, it rotates slower overtime versus a higher state wavefunction. Below is an animation of n=2, 3, and 4, respectively.
+
+As you can see n=2 is rotating the slowest in both position and energy bases, while n=4 is rotating the fastest.
