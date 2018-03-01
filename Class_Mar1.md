@@ -68,8 +68,10 @@ We can further simplify equation 6 by factoring out $$psi_{(x,t)}$$ on the other
 
 Factoring out $$\psi_{(x,t)}$$:
   \begin{equation}\label{delta7}
-    \psi_{(x,t+\Delta t)}=\psi_{(x,t)}(\frac{\Delta t}{i\hbar}\hat{H}+1)
+    \psi_{(x,t+\Delta t)}=(\frac{\Delta t}{i\hbar}\hat{H}+1)\psi_{(x,t)}
 \end{equation}
+
+At first you might be questioning whether you can factor out $$\psi_{(x,t)}$$ like was done in equation 7. Yes, this is allowed in the same way that the Hamiltonian operator is the sum of the kinetic and potential energy operators. And so the two operations can be added together before operating on the wavefunction. Therefore, you can add the two parts that are operating on $$\psi_{(x,t)}$$ and make a single operator.
 
 At this point we have the new wavefunction equal to an operator that you can use to operate on your original wavefunction. The operator consists of the sum of two matrices where one represents the constants and Hamiltonian operator and the other is the scalar 1. The Hamiltonian operator will be the same matrix that has been previously defined and you can multiply the constants as a scalar to the matrix. And in order to add 1 as a matrix, this will be the identity matrix with the same dimensions as the Hamiltonian. Therefore, the operation will be the matrix times the original wavefunction to give the new wavefunction after time, $$\Delta t$$. 
 
