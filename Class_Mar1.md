@@ -37,7 +37,7 @@ In order to be able to graph the new wave function at a certain time, we need to
 
 We can plug equation 3 in for $$\Delta\psi_{(x,t)}$$ in equation 2:
 \begin{equation}\label{delta4}
-    \hat{H}\psi_{(x,t)}=i\hbar\frac{\psi_{(x,t+\Delta t)}-\psi_{(x,t)}}}{\Delta t}
+    \hat{H}\psi_{(x,t)}=i\hbar\frac{\psi_{(x,t+\Delta t)}-\psi_{(x,t)}}{\Delta t}
 \end{equation}
 
 Now we have the new wavefunction that we want to solve for. 
