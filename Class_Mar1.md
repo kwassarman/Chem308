@@ -66,7 +66,7 @@ We can further simplify equation 6 by factoring out $$psi_{(x,t)}$$ on the other
 
 #### Step 7
 
-Factoring out $$psi_{(x,t)}$$:
+Factoring out $$\psi_{(x,t)}$$:
   \begin{equation}\label{delta7}
     \psi_{(x,t+\Delta t)}=\psi_{(x,t)}(\frac{\Delta t}{i\hbar}\hat{H}+1)
 \end{equation}
