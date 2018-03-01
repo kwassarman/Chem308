@@ -48,7 +48,7 @@ end
 ```
 ## Start with Specified State
 
-We initially looked at the animation when a specific state was defined for n. The input of n could be a single value, which is a stationary state, or n could be multiple values, which is a non-stationary state. Below is a general output that represents the system of n=2 (if you want to see animation [open](TDSE2.md) in Matlab).
+We initially looked at the animation when a specific state was defined for n. The input of n could be a single value, which is a stationary state, or n could be multiple values, which is a non-stationary state. Below is a general output that represents the system of n=2 (if you want to see animation [open](TDSEa2.m) in Matlab).
 
 ![Animation](/TDSE2.jpg)
 
