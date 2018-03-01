@@ -12,7 +12,7 @@ The particle in a box model is used to describe the energy of a particle in cert
 
 The well can be defined by a certain length, L, and height at the sides. Initially can look at well with infinite walls (or as close as you can get in Matlab, $$10^6$$). This means that the observed particle must exists somewhere in the well and no where else in space. Below is an image of a well with 'infinite' walls and can be used as the potential energy matrix for the Hamiltonian operator.
 
-![Potential well](/Potenwell_1.jpg)
+![Potential well](/Potenwell_1.png)
 
 This is the Matlab code for making the potential well matrix as well as plotting the potential well.
 ```Matlab
@@ -28,7 +28,7 @@ This is the Matlab code for making the potential well matrix as well as plotting
 
 The potential well can also be modified so that the walls are not infinitely high or there is a bump in the middle of the well. This will change the behavior of the particle because it is no longer trapped in the box. Also if there is a bump in the middle, the particle can still occupy the entire box, however, the probability in certain areas will decrease because the particle is less likely to get over the bump in the potential energy. Below is an example of a potential well with a bump in the potential energy well.
 
-![Potential well2](/Potenwell_2.jpg)
+![Potential well2](/Potenwell_2.png)
 
 This is the Matlab code for modifying the potential well matrix.
 ```Matlab
@@ -44,7 +44,7 @@ This is the Matlab code for modifying the potential well matrix.
 
 There are different physical states that you can determine about the particle in the well based on which operator you use. Such as, if you want to determine the position of the particle at the ground state, then you would use the position operator to generate the observable of the location of the particle. And you want to determine the average position of the particle when at multiple states, you can use an expectation value (average position) based upon the possible states the particle can be in. This can also be done for momentum and energy. Such as if you want to determine the energy of the particle when in the ground state, you can use the Hamiltonian operator on the wave function. Below is a picture of the first five energy states for an electron in an infinite box.
 
-![PIB](/PIB_5st.jpg)
+![PIB](/PIB_5st.png)
 
 This is the Matlab code for generating and plotting the states. Also open [this](PIB5.m) in Matlab to have the full function and can change n to be the number of states that you want to look at (you will need to change the axes).
 ```Matlab
