@@ -40,4 +40,15 @@ We can plug equation 3 in for $$\Delta\psi_{(x,t)}$$ in equation 2:
     \hat{H}\psi_{(x,t)}=i\hbar\frac{\psi_{(x,t+\Delta t)}-\psi_{(x,t)}}{\Delta t}
 \end{equation}
 
-Now we have the new wavefunction that we want to solve for. 
+Now we have the new wavefunction that we want to solve for in the equation. The next few steps are algebraic steps that isolate $$\psi_{(x,t+\Delta t)}$$ on one side of the equation.
+
+#### Step 5
+
+We multiply both sides by $$\frac{i\hbar}{\Delta t}$$ to the other side of the equation in equation 3 above:
+\begin{equation}\label{delta5}
+    \frac{i\hbar}{\Delta t}\hat{H}\psi_{(x,t)}=\psi_{(x,t+\Delta t)}-\psi_{(x,t)}
+\end{equation}
+
+#### Step 6
+
+Then we can add $$\psi_{(x,t)}$$ to both sides of the equation
