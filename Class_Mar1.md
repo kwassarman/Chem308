@@ -31,7 +31,7 @@ We can rewrite $$\Delta\psi_{(x,t)}$$ as the difference between two states:
     \Delta\psi_{(x,t)}=\psi_{(x,t+\Delta t)}-\psi_{(x,t)}
 \end{equation}
 
-In order to be able to graph the new wave function at a certain time, we need to solve equation 3 above for $$\psi_{(x,t+\Delta t)}$$ because this is the new state after a time $$\Delta t$$. 
+In order to be able to graph the new wave function at a certain time, we need to solve equation 3 above for $$\psi_{(x,t+\Delta t)}$$ because this is the new wavefunction after a time $$\Delta t$$. 
 
 #### Step 4
 
@@ -44,11 +44,16 @@ Now we have the new wavefunction that we want to solve for in the equation. The 
 
 #### Step 5
 
-We multiply both sides by $$\frac{i\hbar}{\Delta t}$$ to the other side of the equation in equation 3 above:
+We multiply both sides by $$\frac{\Delta t}{i\hbar}$$ to the other side of the equation in equation 3 above:
 \begin{equation}\label{delta5}
-    \frac{i\hbar}{\Delta t}\hat{H}\psi_{(x,t)}=\psi_{(x,t+\Delta t)}-\psi_{(x,t)}
+    \frac{\Delta t}{i\hbar}\hat{H}\psi_{(x,t)}=\psi_{(x,t+\Delta t)}-\psi_{(x,t)}
 \end{equation}
 
 #### Step 6
 
-Then we can add $$\psi_{(x,t)}$$ to both sides of the equation
+Then we can add $$\psi_{(x,t)}$$ to both sides of the equation:
+\begin{equation}\label{delta5}
+    \frac{\Delta t}{i\hbar}\hat{H}\psi_{(x,t)}+\psi_{(x,t)}=\psi_{(x,t+\Delta t)}
+\end{equation}
+
+
