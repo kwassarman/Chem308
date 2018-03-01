@@ -10,7 +10,7 @@ Today in class we were trying to write code for TDSE but instead of using [diffe
 
 We initally start with the following equation:
   \begin{equation}\label{differential}
-    \hat{H}\psi(x,t)=i\hbar\frac{\partial(\psi(x,t))}{\partial t}
+    \hat{H}\psi(x,t)=i\hbar\frac{\partial\psi_(x,t)}{\partial t}
 \end {equation}
 
 This is the TDSE with the partial derivative $$\frac{\partial\psi(x,t)}{\partial t}$$. A partial derivative is an infinitesimally small change in $$\psi(x,t)$$ in terms of $$t$$. However, we can change the partial derivative to a change in the wavefunction with a delta instead.
@@ -19,6 +19,6 @@ This is the TDSE with the partial derivative $$\frac{\partial\psi(x,t)}{\partial
 
 We can replace the partials with deltas:
   \begin{equation}\label{delta}
-    \hat{H}\psi(x,t)=i\hbar\frac{\Delta(\psi(x,t))}{\Delta t}
+    \hat{H}\psi(x,t)=i\hbar\frac{\Delta\psi_(x,t)}{\Delta t}
 \end{equation}
 
