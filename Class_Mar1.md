@@ -27,7 +27,7 @@ Now we have a ratio of the change in the wavefunction over the change in time, $
 #### Step 3
 
 We can rewrite $$\Delta\psi_{(x,t)}$$ as the difference between two states:
-\begin{equation}\label{delta3}
+  \begin{equation}\label{delta3}
     \Delta\psi_{(x,t)}=\psi_{(x,t+\Delta t)}-\psi_{(x,t)}
 \end{equation}
 
@@ -36,7 +36,7 @@ In order to be able to graph the new wave function at a certain time, we need to
 #### Step 4
 
 We can plug equation 3 in for $$\Delta\psi_{(x,t)}$$ in equation 2:
-\begin{equation}\label{delta4}
+  \begin{equation}\label{delta4}
     \hat{H}\psi_{(x,t)}=i\hbar\frac{\psi_{(x,t+\Delta t)}-\psi_{(x,t)}}{\Delta t}
 \end{equation}
 
@@ -45,15 +45,23 @@ Now we have the new wavefunction that we want to solve for in the equation. The 
 #### Step 5
 
 We multiply both sides by $$\frac{\Delta t}{i\hbar}$$ to the other side of the equation in equation 3 above:
-\begin{equation}\label{delta5}
+  \begin{equation}\label{delta5}
     \frac{\Delta t}{i\hbar}\hat{H}\psi_{(x,t)}=\psi_{(x,t+\Delta t)}-\psi_{(x,t)}
 \end{equation}
 
 #### Step 6
 
 Then we can add $$\psi_{(x,t)}$$ to both sides of the equation:
-\begin{equation}\label{delta6}
+  \begin{equation}\label{delta6}
     \frac{\Delta t}{i\hbar}\hat{H}\psi_{(x,t)}+\psi_{(x,t)}=\psi_{(x,t+\Delta t)}
 \end{equation}
 
+At this point we have solved for $$\psi_{(x,t+\Delta t)}$$ but we can further simplify what it equal to by factoring out $$psi_{(x,t)}$$ on the other side of the equation. This will result in an operator being performed on $$psi_{(x,t)}$$.
+
+#### Step 7
+
+Factoring out $$psi_{(x,t)}$$:
+  \begin{equation}\label{delta7}
+    \psi_{(x,t+\Delta t)}=psi_{(x,t)}(frac{\Delta t}{i\hbar}\hat{H}+1)
+\end{equation}
 
