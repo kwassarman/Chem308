@@ -85,17 +85,17 @@ We have breifly mentioned a few things that could influence how large the change
 
 $$\Delta\psi_{(x,t)}=\frac{\Delta t}{i\hbar}\hat{H}\psi_{(x,t)}$$
 
-**1.** $$\frac{1}{i\hbar}$$ is a constant so will always have same affect no matter the original wavefunction
+**1.** $$\frac{1}{i\hbar}$$ is a constant so will always have the same affect no matter the original wavefunction
 
-**2.** $$\Delta t$$ is also a constant that we can define and therefore will always have same affect no matter the original wavefunction
+**2.** $$\Delta t$$ is also a constant that we can define and so will always have the same affect no matter the original wavefunction
 
-**3.** Therefore, this leaves only one thing left that could be affecting the change to be different based on the wavefunction and this is        the Hamiltonian operator:
+**3.** This only leaves one thing that could be affecting the change to be different based on the wavefunction and this is the Hamiltonian operator:
 
 $$\hat{H}=-\frac{\hbar^2}{2m}\frac{\partial^2}{\partial x^2}+V(x)$$
 
 **4.** Again, $$-\frac{\hbar^2}{2m}$$ is a constant so will always have the same affect on the change. However, it is interesting to note that as mass increases the change in the wavefunctions gets smaller and on the macroscopic level the change is basically nonexistent. This has to do with the *Correspondence Principle* which states that as particles get larger everything begins to look continuous.
 
-**5.** The operator $$V(x)$$ stays constant for the system (at least unless you also have the potential changing over time) and, therefore, again has the same affect on the again
+**5.** The operator $$V(x)$$ stays constant for the system (at least unless you also have the potential changing over time) and, therefore, again has the same affect on the changing wavefunction
 
 **6.** Therefore, the only thing that affects the change over time of the wavefunction is the second partial derivative, $$\frac{\partial^2}{\partial x^2}$$, in the Hamiltonian. Lets look at the two graphs below and discuss which of the two has a larger second derivative:
 
