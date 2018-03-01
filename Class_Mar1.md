@@ -62,6 +62,6 @@ At this point we have solved for $$\psi_{(x,t+\Delta t)}$$ but we can further si
 
 Factoring out $$psi_{(x,t)}$$:
   \begin{equation}\label{delta7}
-    \psi_{(x,t+\Delta t)}=psi_{(x,t)}(frac{\Delta t}{i\hbar}\hat{H}+1)
+    \psi_{(x,t+\Delta t)}=\psi_{(x,t)}(\frac{\Delta t}{i\hbar}\hat{H}+1)
 \end{equation}
 
