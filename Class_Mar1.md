@@ -105,4 +105,4 @@ The one on the right has a larger second derivative because it has more "bumps" 
 
 ![Animation](/n=2,4.gif)
 
-As you can see n=2 is rotating the slowest in both position and energy bases, while n=4 is rotating the fastest.
+As you can see n=2 is rotating the slower than n=4.
