@@ -56,7 +56,7 @@ The plot on the upper left shows the position basis of the wavefunction overtime
 
 Below is an image of a non-stationary state where n=2,3.
 
-![Animation](/TDSE3.png)
+![Animation](/n=2,3.gif)
 
 ## Start with Probability Density
 
