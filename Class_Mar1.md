@@ -103,6 +103,6 @@ $$\hat{H}=-\frac{\hbar^2}{2m}\frac{\partial^2}{\partial x^2}+V(x)$$
 
 The one on the right has a larger second derivative because it has more "bumps" in the wavefunction. Therefore, the wavefunction on the right will have a larger change in the wavefunction over time versus the one on the left. This makes sense if you think back to the animations on the [TDSE PIB page](PIB_TDSE.md). For lower states of a wavefunction, it rotates slower overtime versus a higher state wavefunction. Below is an animation of n=2 and4, respectively.
 
-![Animation](/n=2 and 4.gif)
+! [Animation](/n=2 and 4.gif)
 
 As you can see n=2 is rotating the slowest in both position and energy bases, while n=4 is rotating the fastest.
