@@ -17,3 +17,4 @@ This is a chemistry class that builds upon the topics learned in quantum chemist
 6. [Time Dependent Schrödinger Equation (TDSE)](TDSE.md)
 7. [Particle in a Box TDSE](PIB_TDSE.md)
 8. [TDSE using Difference](Class_Mar1.md)
+9. [Fourier Transform](fourier_transform.md)
