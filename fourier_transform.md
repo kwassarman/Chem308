@@ -10,7 +10,7 @@ Fourier transforms can be used to change from one basis to another such as time 
 
 To use the fourier transform to convert from position to wavenumber, you start with a function $f(x)$. Then you can transform this to yield $\hat {f}(k)$. The following shows the overall equation:
 \begin{equation}\label{fourier}
-  \mathscr{F}(f(x)) = \hat {f}(k)
+  \math{F}(f(x)) = \hat {f}(k)
 \end{equation}
 
 $\hat{f}(k)$ specifies how much pure sinusoid of wavenumber ($k$) contributes to $f(x)$ and spans all of $k$ values.
