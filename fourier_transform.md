@@ -23,6 +23,6 @@ There are two equations that cna be used to show sinusoids with wavenumber:
 
 Below is a video of position and momentum with different k values. The left graph is the wavepacket in position space, and the graph on the right is the wavepacket in momentum space. As the k value increases, the wavelength with decrease and the graph will be steeper. 
 
-![video](/Screen Recording.gif)
+![video](/Screen-Recording.gif)
 
 The video begins with a narrow wavepacket for position, which indicates high certainty for position. However, this results in a more "kinky" momentum packet. This is do to the Heisenberg Principle and stems from the Fourier transform. Also, when the wavepacket begins as a gaussian at the origin (x=0, k=0), then the momentum packet for momentum is also a gaussian at the same time. However, when the wavepacket begins not at the origin, then the two are not gaussians at the same time. 
