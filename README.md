@@ -10,18 +10,31 @@ This is a chemistry class that builds upon the topics learned in quantum chemist
 ### Introduction to Concepts
 
 1. [Linear Algebra Basics](Linear_Algebra.md)
+
 2. [Change of Basis](Change_Basis.md)
+
 3. [Summary of Quantum Ideas](Quantum_ideas.md)
-4. [Time Independent Schrödinger Equation (TISE)](TISE.md)\
+
+4. [Time Independent Schrödinger Equation (TISE)](TISE.md)
+
       a. [Particle in a Box TISE](PIB.md)
-5. [Time Dependent Schrödinger Equation (TDSE)](TDSE.md)\
-      a. [Particle in a Box TDSE](PIB_TDSE.md)\
+      
+5. [Time Dependent Schrödinger Equation (TDSE)](TDSE.md)
+
+      a. [Particle in a Box TDSE](PIB_TDSE.md)
+      
       b. [TDSE using Difference](Class_Mar1.md)
+      
 6. [Introduction to Pertubation Theory](Perturb.md)
+
 7. [Selection Rules](Selection_rules.md)
+
 8. [Fourier Transform](fourier_transform.md)
-9. [Chemical Bonding from Quantum Perspective](chemical_bonding.md)\
-      a. [Born-Oppenheimer Approximation](BO.md)\
+
+9. [Chemical Bonding from Quantum Perspective](chemical_bonding.md)
+
+      a. [Born-Oppenheimer Approximation](BO.md)
+      
       b. [Molecular Dynamics](molecular_dynamics.md)
 
 ### Matlab Code
