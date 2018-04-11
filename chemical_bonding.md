@@ -46,7 +46,7 @@ $\frac {\hat T_{nuc} (\psi \chi)}{\psi \chi} + \frac {\hat T_{e^-} (\psi)}{\psi}
 
 Now, lets focus on the term $\frac {\hat T_{nuc} (\psi \chi)}{\psi \chi}$ because it is the most complicated of the terms left and holds a lot of information. The operator, $\hat T_{nuc}$, can be expanded into its components for both nucleus a and nucleus b:
 
-$\hat T_{nuc} = -\frac {\hbar^2}{2M_a} \nabla_a^2 (\psi \xi) - \frac {\hbar^2}{2M_b} \nabla_b^2 (\psi \chi)$
+$\hat T_{nuc} = -\frac {\hbar^2}{2M_a} \nabla_a^2 (\psi \chi) - \frac {\hbar^2}{2M_b} \nabla_b^2 (\psi \chi)$
 
 The components for nucleus a and b will be the same, so we will only expand this equation for nucleus a. Remember that $\nabla = \frac {\partial}{\partial x}$, so we can put these back into the equation:
 
@@ -54,7 +54,7 @@ $\frac {-\hbar^2}{2M_a} \frac {\partial}{\partial R_a} (\chi \frac {\partial \ps
 
 In order to simplify this, the product rule needs to be used:
 
-$\frac {-\hbar^2}{2M_a} ((\chi \frac {\partial ^2 \psi}{\partial R_a^2} + \frac {\partial \psi}{\partial R_a} * \frac {\partial \chi}{\partial R_a}) + (\psi \frac {\partial ^2 \chi}{\partial R_a^2} + \frac {\partial \psi}{\partial R_a} * \frac {\partial \chi}{\partial R_a}))
+$\frac {-\hbar^2}{2M_a} ((\chi \frac {\partial ^2 \psi}{\partial R_a^2} + \frac {\partial \psi}{\partial R_a} * \frac {\partial \chi}{\partial R_a}) + (\psi \frac {\partial ^2 \chi}{\partial R_a^2} + \frac {\partial \psi}{\partial R_a} * \frac {\partial \chi}{\partial R_a}))$
 
 This can be simplified to:
 
@@ -62,9 +62,12 @@ $\frac {-\hbar^2}{2M_a} ((\chi \frac {\partial ^2 \psi}{\partial R_a^2} + \psi \
 
 Now is when the approximation is used. Remember that $\chi$ is the nuclei component and $\psi$ is the electron component. Therefore, because the nucleus is not moving when on the electron time scale, $\psi$ is not changing relative to $R_a$. This is because $R_a$ represents the movement of nucleus a relative to the origin. Thus, ever part of the equation with $\psi$ changing in terms of $R_a$ are equal to zero and can be canceled out. Therefore, the only part left is:
 
-$\frac {-\hbar^2}{2M_a} (\chi + \psi \frac {\partial ^2 \chi}{\partial R_a^2}$
+$\frac {-\hbar^2}{2M_a} (\chi + \psi \frac {\partial ^2 \chi}{\partial R_a^2})$
 
 This is the same for nucleus b because that is the assumption we made above. Therefore, we have determined the equation for $\hat T_{nuc} (\psi \chi)$ as the following:
 
 $\hat T_{nuc} (\psi \chi) = -\frac {\hbar^2}{2M_a} \psi \frac {\partial ^2 \chi}{\partial R_a^2} - \frac {\hbar^2}{2M_b} \psi \frac {\partial ^2 \chi}{\partial R_b^2}$
 
+Okay, now we have determined what is in the $\hat T_{nuc}$ component of the Hamilitonian. This can be plugged back into the total Hamiltonian expression:
+
+$\frac {-\frac {\hbar^2}{2M_a} \psi \frac {\partial ^2 \chi}{\partial R_a^2}}{\psi \chi} - \frac {\frac {\hbar^2}{2M_b} \psi \frac {\partial ^2 \chi}{\partial R_b^2}}{\psi \chi} + \frac{\hat T_{e^-} \psi}{\psi} + \hat V_{nuc-e^-} + \hat V_{nuc-nuc} = \xi$
