@@ -12,7 +12,7 @@ This is a chemistry class that builds upon the topics learned in quantum chemist
 1. [Linear Algebra Basics](Linear_Algebra.md)
 2. [Change of Basis](Change_Basis.md)
 3. [Summary of Quantum Ideas](Quantum_ideas.md)
-4. [Time Independent Schrödinger Equation (TISE)](TISE.md) $\linebreak$ 
+4. [Time Independent Schrödinger Equation (TISE)](TISE.md) $\newline$ 
       a. [Particle in a Box TISE](PIB.md)    
 5. [Time Dependent Schrödinger Equation (TDSE)](TDSE.md) $\linebreak$
       a. [Particle in a Box TDSE](PIB_TDSE.md) $\linebreak$
