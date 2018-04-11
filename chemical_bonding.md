@@ -58,7 +58,7 @@ $\frac {-hbar^2}{2M_a} ((\chi \frac {\partial ^2 \psi}{\partial R_a^2} + \frac {
 
 This can be simplified to:
 
-$\frac {-hbar^2}{2M_a} ((\chi \frac {\partial ^2 \psi}{\partial R_a^2} + \psi \frac {\partial ^2 \chi}{\partial R_a^2} + 2 (\frac {\partial \psi}{\partial R_a} * \frac {\partial \chi}{\partial R_a}))
+$\frac {-hbar^2}{2M_a} ((\chi \frac {\partial ^2 \psi}{\partial R_a^2} + \psi \frac {\partial ^2 \chi}{\partial R_a^2} + 2 (\frac {\partial \psi}{\partial R_a} * \frac {\partial \chi}{\partial R_a}))$
 
 Now is when the approximation is used. Remember that $\chi$ is the nuclei component and $\psi$ is the electron component. Therefore, because the nucleus is not moving when on the electron time scale, $\psi$ is not changing relative to $R_a$. This is because $R_a$ represents the movement of nucleus a relative to the origin. Thus, ever part of the equation with $\psi$ changing in terms of $R_a$ are equal to zero and can be canceled out. Therefore, the only part left is:
 
@@ -66,5 +66,5 @@ $\frac {-hbar^2}{2M_a} (\chi + \psi \frac {\partial ^2 \chi}{\partial R_a^2}$
 
 This is the same for nucleus b because that is the assumption we made above. Therefore, we have determined the equation for $\hat T_{nuc} (\psi \chi)$ as the following:
 
-$\hat T_{nuc} (\psi \chi) = -\frac {hbar^2}{2M_a} \psi \frac {\partial ^2 \chi}{\partial R_a^2} - \frac {hbar^2}{2M_b} \psi \frac {\partial ^2 \chi}{\partial R_b^2}
+$\hat T_{nuc} (\psi \chi) = -\frac {hbar^2}{2M_a} \psi \frac {\partial ^2 \chi}{\partial R_a^2} - \frac {hbar^2}{2M_b} \psi \frac {\partial ^2 \chi}{\partial R_b^2}$
 
