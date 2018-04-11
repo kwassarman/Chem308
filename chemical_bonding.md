@@ -88,3 +88,28 @@ $E_{e^-} = \frac {\hat T_{e^-} \psi}{\psi} + \frac {\psi}{\psi} \hat V_{nuc-e^-}
 
 $E_{nuc} + E_{e^-} = \xi$.
 
+You can now separate the wavefunctions that are being operated on to yield the following expression:
+
+$\frac {(\hat T_{nuc} + \hat V_{nuc-nuc}) \chi}{\chi} + \frac {(\hat T_{e^-} +\hat V_{nuc-e^-}) \psi}{\psi} = xi$
+
+Substitute in $E_{e^-}$ for $\frac {(\hat T_{e^-} +\hat V_{nuc-e^-}) \psi}{\psi}$ and multiply the whole expression by $\chi$:
+
+$\chi (\frac {(\hat T_{nuc} + \hat V_{nuc-nuc}) \chi}{\chi} + E_{e^-} = \xi)$
+
+$(\hat T_{nuc} + \hat V_{nuc-nuc}) \chi + E_{e^-} \chi = \xi \chi$
+
+Redistribute the $\chi$:
+
+$\hat T_{nuc} \chi + \hat V_{nuc-nuc} \chi + E_{e^-} \chi = \xi \chi$
+
+$\hat T_{nuc} \chi + (\hat V_{nuc-nuc} + E_{e^-}) \chi= \xi \chi$
+
+Let $\hat V_{nuc} = \hat V_{nuc-nuc} + E_{e^-}$. Therefore,
+
+$\hat T_{nuc} \chi + \hat V_{nuc} \chi = \xi \chi$
+
+This is the Schrödinger equation for the system using the Born-Oppenheimer Approximation!! It shows that the potential is based on both the potential energy of the nucleus-nucleus interaction as well as the componenets that go into the energy of the electron. This includes the kinetic energy of the electron as well as the potential energy interactions between the nucleus and electron. Therefore, the potential well can be determined based upon this expression. Below is the potential well for the molecule:
+
+![bonding-well](/bonding-well.png)
+
+This picture has been shown since introductory chemistry, however, now you know the components that go into the picture. The dip is the equilibrium bond radius and has the lowest energy. This graph can be generated 
