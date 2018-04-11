@@ -18,7 +18,7 @@ This can then be rewritten as a sum of four different parts:
 
 $\hat H = \hat T_{nuc} + \hat T_e^{-} + \hat V_{nuc-e^-} + \hat V_{nuc-nuc}$, 
 
-where $\hat T_nuc = \frac {-\hbar^2}{2M_a} \nabla_a^2 + \frac {-\hbar^2}{2M_b} \nabla_b^2$, $\hat T_e^{-} = \frac {-\hbar^2}{2m_e} \nabla_e^2$, $\hat V_{nuc-e^-} = -\frac {q^2}{4 \pi \epsilon_o r_a} - \frac {q^2}{4 \pi \epsilon_o r_b}$, and $\hat V_{nuc-nuc}=\frac {q^2}{4 \pi \epsilon_o R_{ab}}$.
+where $\hat T_{nuc} = \frac {-\hbar^2}{2M_a} \nabla_a^2 + \frac {-\hbar^2}{2M_b} \nabla_b^2$, $\hat T_e^{-} = \frac {-\hbar^2}{2m_e} \nabla_e^2$, $\hat V_{nuc-e^-} = -\frac {q^2}{4 \pi \epsilon_o r_a} - \frac {q^2}{4 \pi \epsilon_o r_b}$, and $\hat V_{nuc-nuc}=\frac {q^2}{4 \pi \epsilon_o R_{ab}}$.
 
 This Hamiltonian can then be "solved" to determine the total energy of the system: $\hat H \Psi = \xi \Psi$. 
 
