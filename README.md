@@ -1,5 +1,3 @@
-{% include mathjax.html %}
-
 # Topics in Physical Chemistry
 
 ## Bates College: Department of Chemistry and Biochemistry
