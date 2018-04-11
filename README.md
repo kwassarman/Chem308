@@ -2,9 +2,7 @@
 
 # Topics in Physical Chemistry
 
-## Bates College
-
-### Department of Chemistry and Biochemistry
+## Bates College: Department of Chemistry and Biochemistry
 This is a chemistry class that builds upon the topics learned in quantum chemistry. It utilizes Matlab to visualize different models in quantum chemistry, such as particle in a box and harmonic oscillators. In addition, linear algebra is used to represent operators as matrices and quantum states as vectors. Below are introductions to the topics learned in this class as well as Matlab code for the different topics. 
 
 ## Table of Contents
