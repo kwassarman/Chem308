@@ -12,17 +12,17 @@ This is a chemistry class that builds upon the topics learned in quantum chemist
 3. [Summary of Quantum Ideas](Quantum_ideas.md)
 4. [Time Independent Schrödinger Equation (TISE)](TISE.md)
 
-      - [Particle in a Box TISE](PIB.md)    
+      a. [Particle in a Box TISE](PIB.md)    
 5. [Time Dependent Schrödinger Equation (TDSE)](TDSE.md)
 
-      - [Particle in a Box TDSE](PIB_TDSE.md)
-      - [TDSE using Difference](Class_Mar1.md) 
+      a. [Particle in a Box TDSE](PIB_TDSE.md)
+      b. [TDSE using Difference](Class_Mar1.md) 
 6. [Introduction to Pertubation Theory](Perturb.md)
 7. [Selection Rules](Selection_rules.md)
 8. [Fourier Transform](fourier_transform.md)
 9. [Chemical Bonding from Quantum Perspective](chemical_bonding.md) 
 
-      - [Born-Oppenheimer Approximation](BO.md) 
-      - [Molecular Dynamics](molecular_dynamics.md)
+      a. [Born-Oppenheimer Approximation](BO.md) 
+      b. [Molecular Dynamics](molecular_dynamics.md)
 
 ### Matlab Code
