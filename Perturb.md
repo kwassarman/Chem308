@@ -22,4 +22,6 @@ In order to more fully understand this topic, below is the picture of the orbita
 
 ![hydrogenMO](/hydrogenMO.png)
 
-Again, the 
+Again, the $1s \sigma$ can be represented by a linear combination of the wavefunctions of each of the hydrogen $1s$ orbitals. This helps to better understand the $H_2^+$ molecule from previously determined wavefunctions without needing to define a new model to represent the molecule. 
+
+[Next](.md) ()
