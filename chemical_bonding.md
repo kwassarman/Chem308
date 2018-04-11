@@ -42,5 +42,21 @@ $\frac {\hat T_{nuc} (\psi \chi)}{\psi \chi} + \frac {\hat T_{e^-} (\psi \chi)}{
 
 Now, some things can be canceled out in order to simiply the equation. Firstly, because the potential operator ($\hat V$) is multiplied by the wavefunction, the wavefunctions can be moved to the front of the operator. Therefore, $\psi \chi$ can be canceled out for these terms. This is the same as the solution on the write side, so only $\xi$ is left on the right. And finally, $\chi$ can be canceled out for $\hat T_{e^-}$ because the kinetic energy of the electron is not dependent on the wavefunction for only the nucleus components. Therefore, the following equation is left:
 
-$\frac {\T_{nuc} (\psi \chi)}{\psi \chi} + \frac {\T_{e^-} (\psi)}{\psi} + \hat V_{nuc-e^-} + \hat V_{nuc-nuc} = \xi$
+$\frac {\hat T_{nuc} (\psi \chi)}{\psi \chi} + \frac {\hat T_{e^-} (\psi)}{\psi} + \hat V_{nuc-e^-} + \hat V_{nuc-nuc} = \xi$
+
+Now, lets focus on the term $\frac {\T_{nuc} (\psi \chi)}{\psi \chi}$ because it is the most complicated of the terms left and holds a lot of information. The operator, $\hat T_{nuc}$, can be expanded into its components for both nucleus a and nucleus b:
+
+$\hat T_{nuc} = -\frac {\hbar^2}{2M_a} \nabla_a^2 (\psi \xi) - \frac {\hbar^2}{2M_b} \nabla_b^2 (\psi \chi)$
+
+The components for nucleus a and b will be the same, so we will only expand this equation for nucleus a. Remember that $\nabla = \frac {partial}{partial x}$, so we can put these back into the equation:
+
+$\frac {-hbar^2}{2M_a} \frac {partial}{partial R_a} (\chi \frac {partial \psi}{partial R_a} + \psi \frac {partial \chi}{\partial R_a})$
+
+In order to simplify this, the product rule needs to be used:
+
+$\frac {-hbar^2}{2M_a} ((\chi \frac {\partial ^2 \psi}{\partial R_a^2} + \frac {\partial \psi}{\partial R_a} * \frac {\partial \chi}{\partial R_a}) + (\psi \frac {\partial ^2 \chi}{\partial R_a^2} + \frac {\partial \psi}{\partial R_a} * \frac {\partial \chi}{\partial R_a}))
+
+This can be simplified to:$\frac {-hbar^2}{2M_a} ((\chi \frac {\partial ^2 \psi}{\partial R_a^2} + \psi \frac {\partial ^2 \chi}{\partial R_a^2} + 2 (\frac {\partial \psi}{\partial R_a} * \frac {\partial \chi}{\partial R_a}))
+
+
 
