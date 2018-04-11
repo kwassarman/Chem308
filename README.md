@@ -11,7 +11,7 @@ This is a chemistry class that builds upon the topics learned in quantum chemist
 2. [Change of Basis](Change_Basis.md)
 3. [Summary of Quantum Ideas](Quantum_ideas.md)
 4. [Time Independent Schrödinger Equation (TISE)](TISE.md) 
-      - [Particle in a Box TISE](PIB.md)    
+      a. [Particle in a Box TISE](PIB.md)    
 5. [Time Dependent Schrödinger Equation (TDSE)](TDSE.md)
       - [Particle in a Box TDSE](PIB_TDSE.md)
       - [TDSE using Difference](Class_Mar1.md) 
