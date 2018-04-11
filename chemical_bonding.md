@@ -20,3 +20,6 @@ $\hat H = \hat T_nuc + \hat T_e^{-} + \hat V_{nuc-e^-} + \hat V_{nuc-nuc}$,
 
 where $\hat T_nuc = \frac {-\hbar^2}{2M_a} \nabla_a^2 + \frac {-\hbar^2}{2M_b} \nabla_b^2$, $\hat T_e^{-} = \frac {-\hbar^2}{2m_e} \nabla_e^2$, $\hat V_{nuc-e^-} = -\frac {q^2}{4 \pi \Epsilon_o r_a} - \frac {q^2}{4 \pi \Epsilon_o r_b}$, and $\hat V_{nuc-nuc}=\frac {q^2}{4 \pi \Epsilon_o R_{ab}}$.
 
+This Hamiltonian can then be "solved" to determine the total energy of the system: $\hat H \Psi = \Xi \Psi$. 
+
+This problem cannot be solved and so an approximation is needed in order to spearte the two components of the Hamiltonian: the nucleus and the electron. The [Born-Oppenheimer Approximation](/BO.md) can be used in order to solve this problem. More is discussed about the approximation and assumptions on the B-O Approximation page. 
