@@ -71,3 +71,20 @@ $\hat T_{nuc} (\psi \chi) = -\frac {\hbar^2}{2M_a} \psi \frac {\partial ^2 \chi}
 Okay, now we have determined what is in the $\hat T_{nuc}$ component of the Hamilitonian. This can be plugged back into the total Hamiltonian expression:
 
 $\frac {-\frac {\hbar^2}{2M_a} \psi \frac {\partial ^2 \chi}{\partial R_a^2}}{\psi \chi} - \frac {\frac {\hbar^2}{2M_b} \psi \frac {\partial ^2 \chi}{\partial R_b^2}}{\psi \chi} + \frac{\hat T_{e^-} \psi}{\psi} + \hat V_{nuc-e^-} + \hat V_{nuc-nuc} = \xi$
+
+The $\psi$ in the first two terms can be canceled out to yield:
+
+$\frac {-\frac {\hbar^2}{2M_a} \frac {\partial ^2 \chi}{\partial R_a^2}}{\chi} - \frac {\frac {\hbar^2}{2M_b} \frac {\partial ^2 \chi}{\partial R_b^2}}{\chi} + \frac{\hat T_{e^-} \psi}{\psi} + \hat V_{nuc-e^-} + \hat V_{nuc-nuc} = \xi$
+
+Now the terms can be grouped into nucleus and electron components. To make this easier to visualize, you can multiply $\hat V_{nuc-e^-}$ by $\frac {\psi}{\psi}$ and $\hat V_{nuc-nuc}$ by $\frac {\chi}{\chi}$:
+
+$(\frac {\hat T_{nuc} \chi}{\chi} + \frac {\chi}{\chi} \hat V_{nuc-nuc}) + (\frac {\hat T_{e^-} \psi}{\psi} + \frac {\psi}{\psi} \hat V_{nuc-e^-}) = \xi$
+
+Let the following be defined:
+
+$E_{nuc} = \frac {\hat T_{nuc} \chi}{\chi} + \frac {\chi}{\chi} \hat V_{nuc-nuc}$, and
+
+$E_{e^-} = \frac {\hat T_{e^-} \psi}{\psi} + \frac {\psi}{\psi} \hat V_{nuc-e^-}$, therefore,
+
+$E_{nuc} + E_{e^-} = \xi$.
+
