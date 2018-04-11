@@ -40,5 +40,7 @@ In order to separate the two components of the wave function ($\psi$ and $\chi$)
 
 $\frac {\hat T_{nuc} (\psi \chi)}{\psi \chi} + \frac {\hat T_{e^-} (\psi \chi)}{\psi \chi} + \frac {\hat V_{nuc-e^-} (\psi \chi)}{\psi \chi} + \frac {\hat V_{nuc-nuc} (\psi \chi)}{\psi \chi} = \frac {\xi (\psi \chi)}{\psi \chi}$
 
-Now, some things can be canceled out in order to simiply the equation. Firstly, because the potential operator ($\hat V$) is multiplied by the wavefunction, the wavefunctions can be moved to the front of the operator. Therefore, $\psi \chi$ can be canceled out for these terms. This is the same as the solution on the write side, so only $\xi$ is left on the right. And finally, $\chi$ can be canceled out for $\hat T_e^-$ because the kinetic energy of the electron is not dependent on the wavefunction for only the nucleus components. Therefore, the following equation is left:
+Now, some things can be canceled out in order to simiply the equation. Firstly, because the potential operator ($\hat V$) is multiplied by the wavefunction, the wavefunctions can be moved to the front of the operator. Therefore, $\psi \chi$ can be canceled out for these terms. This is the same as the solution on the write side, so only $\xi$ is left on the right. And finally, $\chi$ can be canceled out for $\hat T_{e^-}$ because the kinetic energy of the electron is not dependent on the wavefunction for only the nucleus components. Therefore, the following equation is left:
+
+$\frac {\T_{nuc} (\psi \chi)}{\psi \chi} + \frac {\T_{e^-} (\psi)}{\psi} + \hat V_{nuc-e^-} + \hat V_{nuc-nuc} = \xi$
 
