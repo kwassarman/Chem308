@@ -23,3 +23,22 @@ where $\hat T_{nuc} = \frac {-\hbar^2}{2M_a} \nabla_a^2 + \frac {-\hbar^2}{2M_b}
 This Hamiltonian can then be "solved" to determine the total energy of the system: $\hat H \Psi = \xi \Psi$. 
 
 This problem cannot be solved and so an approximation is needed in order to spearte the two components of the Hamiltonian: the nucleus and the electron. The [Born-Oppenheimer Approximation](/BO.md) can be used in order to solve this problem. More is discussed about the approximation and assumptions on the B-O Approximation page. 
+
+Once the Born-Oppenheimer Approximation is applied, the wavefunction can be separated into the nucleus and nucleus-electron components:
+
+$\Psi (r, R_a, R_b) = \psi (r,R) \chi (R)$, where $r, R_a, R_b$ are the distances from the origin position point A. 
+
+Therefore, the Schrödinger Equation can be rewritten as:
+
+$\hat H (\psi_{(r;R)} \chi_{(R)})=\xi (\psi_{(r;R)} \chi_{(R)})$
+
+The Hamiltonian ($\hat H$) is comprised of the summation of four different compenents, as shown above. These operators can be separated and the wavefunctions can be operated on separately as shown below:
+
+$\hat T_{nuc} (\psi \chi) + \hat T_{e^-} (\psi \chi) + \hat V_{nuc-e^-} (\psi \chi) + \hat V_{nuc-nuc} (\psi \chi) = \xi (\psi \chi)$
+
+In order to separate the two components of the wave function ($\psi$ and $\chi$), you can divide by $\psi \chi$ as follows:
+
+$\frac {\hat T_{nuc} (\psi \chi)}{\psi \chi} + \frac {\hat T_{e^-} (\psi \chi)}{\psi \chi} + \frac {\hat V_{nuc-e^-} (\psi \chi)}{\psi \chi} + \frac {\hat V_{nuc-nuc} (\psi \chi)}{\psi \chi} = \frac {\xi (\psi \chi)}{\psi \chi}$
+
+Now, some things can be canceled out in order to simiply the equation. Firstly, because the potential operator ($\hat V$) is multiplied by the wavefunction, the wavefunctions can be moved to the front of the operator. Therefore, $\psi \chi$ can be canceled out for these terms. This is the same as the solution on the write side, so only $\xi$ is left on the right. And finally, $\chi$ can be canceled out for $\hat T_e^-$ because the kinetic energy of the electron is not dependent on the wavefunction for only the nucleus components. Therefore, the following equation is left:
+
