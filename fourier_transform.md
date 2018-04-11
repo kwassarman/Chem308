@@ -20,3 +20,7 @@ There are two equations that cna be used to show sinusoids with wavenumber:
 1. $a \cdot cos(kx) + b \cdot sin(kx)$ and this can be rewritten as $R \cdot cos(kx-\phi)$, where $R=\sqrt{a^2+b^2}$ and $\phi=arctan(\frac {b}/{a})$
 
 2. $e^{ikx}=cos(kx)+isin(kx)$ by Euler's approximation
+
+Below is a video of position and momentum with different k values. The left graph is the wavepacket in position space, and the graph on the right is the wavepacket in momentum space. As the k value increases, the wavelength with decrease and the graph will be steeper. 
+
+![video](/Screen Recording.mov)
