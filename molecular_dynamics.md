@@ -14,3 +14,4 @@ This reaction was observed using three different surfaces that represent differe
 
 ![early barrier](/early barrier.png)
 
+![late barrier](/late barrier.png)
