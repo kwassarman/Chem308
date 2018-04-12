@@ -2,7 +2,7 @@
 
 (For table of contents, visit [homepage](/README.md))
 
-[Next](.md)/[Previous](.md)
+[Previous](/BO.md)
 
 # Molecular Dynamics
 
