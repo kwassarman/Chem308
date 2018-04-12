@@ -2,7 +2,7 @@
 
 (For table of contents, visit [homepage](/README.md))
 
-[Previous](.md)/[Next](.md)
+[Previous](/fourier_transform.md)/[Next](/BO.md)
 
 # Chemical Bonding from Quantum Perspective
 
@@ -120,4 +120,4 @@ The anti-bonding well can also be generated in a similar way, however, the nucle
 
 Therefore, the chemical dynamics of the three body system can be determined using the TDSE and the Born-Oppenheimer Approximation. Because the bonding and interactions can be determined on the quantum level, molecular dynamics can now be explored on the quantum level as well. Such as, why do some reactions take place while other reactions do not? The next section explores molecular dynamics.
 
-[Next](molecular_dynamics.md)
+[Next](/BO.md) (Born-Oppenheimer Approximation)
