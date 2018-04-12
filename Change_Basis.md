@@ -11,14 +11,14 @@ Changing the basis is useful in order to be able to do operations on a wavefunct
 Therefore, the wavefunction can be expressed as a linear combination of vectors $$\vec{x_1}, \vec{x_2}, \vec{x_3}, ..., \vec{x_n}$$, where each vector $$\vec{x_j}$$ has different weight $$c$$. So, 
 
   \begin{equation}\label{basis}
-    \psi(x) = c_1\vec{x_1} + c_2\vec{x_2} + c_3\vec{x_3} + ... + c_n\vec{x_n}
+    \psi = c_1\vec{x_1} + c_2\vec{x_2} + c_3\vec{x_3} + ... + c_n\vec{x_n}
 \end{equation}
 
 Each $$\vec{x_j}$$ is a vector of all zeros except for a 1 at the j position. Therefore, in order to get a delta function at a specific $$j$$ position, you need to have $$c_j$$ be a nonzero number. Equation 1 above can be rewritten in vector form,
 
-$$\psi(x) = c_1 \begin{pmatrix} 1 \\ 0 \\ 0 \\ \vdots \\ 0 \end{pmatrix} + c_2 \begin{pmatrix} 0\\1\\0\\ \vdots \\0 \end{pmatrix} + c_3 \begin{pmatrix} 0\\0\\1\\ \vdots \\0 \end{pmatrix} + ... + c_n \begin{pmatrix} 0\\0\\0\\ \vdots \\1 \end{pmatrix}$$ 
+$$\psi = c_1 \begin{pmatrix} 1 \\ 0 \\ 0 \\ \vdots \\ 0 \end{pmatrix} + c_2 \begin{pmatrix} 0\\1\\0\\ \vdots \\0 \end{pmatrix} + c_3 \begin{pmatrix} 0\\0\\1\\ \vdots \\0 \end{pmatrix} + ... + c_n \begin{pmatrix} 0\\0\\0\\ \vdots \\1 \end{pmatrix}$$ 
 
-$$\psi(x)= \begin{pmatrix} c_1\\0\\0\\ \vdots \\0 \end{pmatrix} + \begin{pmatrix} 0\\c_2\\0\\ \vdots \\0 \end{pmatrix} + \begin{pmatrix} 0\\0\\c_3\\ \vdots \\0 \end{pmatrix} + ... + \begin{pmatrix} 0\\0\\0\\ \vdots \\c_n \end{pmatrix}$$
+$$\psi= \begin{pmatrix} c_1\\0\\0\\ \vdots \\0 \end{pmatrix} + \begin{pmatrix} 0\\c_2\\0\\ \vdots \\0 \end{pmatrix} + \begin{pmatrix} 0\\0\\c_3\\ \vdots \\0 \end{pmatrix} + ... + \begin{pmatrix} 0\\0\\0\\ \vdots \\c_n \end{pmatrix}$$
 
 Therefore, in order to determine the energy for the Time Independent Schrödinger Equation, you can just use the Hamiltonian operator in the position basis. This is because the eigenvalue output using a Hamiltonian operator in any basis will always be the same. The fact that the eigenvalues is the same no matter the basis is usesful for changing between bases. Therefore in order to change between basis you can multiply by the eigenvectors matrix or the inverse of the eigenvectors matrix to convert between the position and energy bases. To go from the energy basis to the position basis you use the eigenvectors and to go from the position basis to the energy basis you use the inverse of the eigenvectors. 
 
