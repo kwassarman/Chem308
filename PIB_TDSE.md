@@ -4,7 +4,7 @@
 
 [Previous](TDSE.md)/[Next](Class_Mar1.md)
 
-# Particle in a Box TDSE
+# TDSE: Particle in a Box
 
 The general set up of PIB for The Time Dependent Schrödinger Equations is similar to that of The Time Independent Schrödinger Equation. The potential well, Hamiltonian operator, eigenvalues, and eigenvectors are the same as in the TISE PIB. However, because the TDSE evolves with time, the plot now has to be an animation to represent the progression of time. 
 
