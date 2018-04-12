@@ -48,4 +48,15 @@ Finally, this animation shows the reaction occuring. The AB molecule separates, 
 
 ![makes it](/early_surface_makes_it1.gif)
 
-## Exploaration with Late Barrier Surface
+## Exploration with Late Barrier Surface
+
+This animation shows the reaction not occurring. There is not enough energy to get over the saddle point.
+
+![doesn't make it](/late_surface_doesnt_make_it.gif)
+
+Next, this animation shows the reaction occurring. The starting position is the same as the one above but there is more horizontal kinetic energy, so it is able to make it over the saddle point. Look at the difference in the vibration of the BC molecule and the AB molecule. The reactant BC has a larger amplitude vibration than the AB molecule. This is because the product has higher potential energy than the reactants, and therefore, has lower kinetic energy. This results in smaller vibration.
+
+![makes it](/late_surface_makes_it.gif)
+
+## Exploration with Lennard-Jones Potential
+
