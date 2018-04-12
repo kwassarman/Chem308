@@ -28,8 +28,12 @@ Although the harmonic case is a useful model of the lower energy states, it does
 
 ## Harmonic Oscillator: TDSE
 
-This new potential well can be applied using the TDSE in a similar way to PIB. Everything is the same, however, instead of the infinite well potential, now the potential well is the HO. Either the harmonic oscillator or the Morse potential well can be used. Below is a picture of the first 10 energy levels for the harmonic potential well. The energy levels are evenly spaced and there is more electron density towards the middle the well versus the sides.
+This new potential well can be applied using the TDSE in a similar way to PIB. Everything is the same, however, instead of the infinite well potential, now the potential well is the HO. Either the harmonic oscillator or the Morse potential well can be used. Below is a picture of the first 6 energy levels for the harmonic potential well. The energy levels are evenly spaced and there is more electron density towards the middle the well versus the sides.
 
+![HO_6](/HO_6.png)
 
+Below is first 10 energy levels for the Morse potential well.
+
+![morse_10](/Morse_10.png)
 
 [Next](/Selection_rules.md) (Selection Rules)
