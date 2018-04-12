@@ -36,3 +36,5 @@ This well represents the reaction of non-reactive species, such as nobel gases. 
 
 ## Exploration with Early Barrier Surface
 
+![doesn't make it](/early_surface_doesnt_make_it.mp4)
+
