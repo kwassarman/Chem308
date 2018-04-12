@@ -2,7 +2,7 @@
 
 (For table of contents, visit [homepage](/README.md))
 
-[Previous](.md)/[Next](.md)
+[Previous](/chemical_bonding.md)/[Next](/molecular_dynamics.md)
 
 # Born-Oppenheimer Approximation
 
@@ -12,3 +12,4 @@ The approximation assumes that the nucleus does not move when on the time scale 
 
 The following are the steps to derive the Hamiltonian operator for a system containing two nuclei and an electron. The system is described more on [Chemical Bonding](/chemical_bonding.md). 
 
+[Next](/molecular_dynamics.md) (Molecular Dynamics Investigation)
