@@ -35,6 +35,7 @@ This is a chemistry class that builds upon the topics learned in quantum chemist
 - [Time Dependent Schrödinger Equation PIB](/TDSEPIB.md)
 - [Pertubation Theory](/perturbcode.md)
 - [Harmonic Ocsillator](/HOcode.md)
+- [Morse Potential HO](/morsecode.md)
 - [Selection Rules](/selection_rulescode.md)
 - [Molecular Dynamics Fun!](/molecdynam.md)
 - [LJ Potential: Molecular Dynamics Fun!](/LJPot.md)
