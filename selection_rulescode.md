@@ -2,7 +2,7 @@
 
 (For table of contents, visit [homepage](/README.md))
 
-# Matlab Code for Selection Rules HO
+# Matlab Code for Selection Rules
 
 ```Matlab
 function prob_HO(n)
