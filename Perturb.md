@@ -2,7 +2,7 @@
 
 (For table of contents, visit [homepage](/README.md))
 
-[Previous](.md)/[Next](.md)
+[Previous](/Class_Mar1.md)/[Next](/Selection_rules.md)
 
 # Introduction to Perturbation Theory
 
@@ -24,4 +24,4 @@ In order to more fully understand this topic, below is the picture of the orbita
 
 Again, the $1s$ $\sigma$ can be represented by a linear combination of the wavefunctions of each of the hydrogen $1s$ orbitals. This helps to better understand the $H_2^+$ molecule from previously determined wavefunctions without needing to define a new model to represent the molecule. 
 
-[Next](.md) ()
+[Next](/Selection_rules.md) (Selection Rules)
