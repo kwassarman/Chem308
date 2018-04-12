@@ -2,7 +2,7 @@
 
 (For table of contents, visit the [homepage](/README.md))
 
-[Previous](Class_Mar1.md)/[Next]
+[Previous](/Selection_rules.md)/[Next](/chemical_bonding.md)
 
 # Fourier Transform
 
@@ -26,3 +26,5 @@ Below is a video of position and momentum with different k values. The left grap
 ![video](/Screen-Recording.gif)
 
 The video begins with a narrow wavepacket for position, which indicates high certainty for position. However, this results in a more "kinky" momentum packet. This is do to the Heisenberg Principle and stems from the Fourier transform. Also, when the wavepacket begins as a gaussian at the origin (x=0, k=0), then the momentum packet for momentum is also a gaussian at the same time. However, when the wavepacket begins not at the origin, then the two are not gaussians at the same time. 
+
+[Next](/chemical_bonding.md) (Chemical Bonding from Quantum Level)
