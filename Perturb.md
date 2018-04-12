@@ -2,7 +2,7 @@
 
 (For table of contents, visit [homepage](/README.md))
 
-[Previous](/Class_Mar1.md)/[Next](/Selection_rules.md)
+[Previous](/Class_Mar1.md)/[Next](/HO.md)
 
 # Introduction to Perturbation Theory
 
