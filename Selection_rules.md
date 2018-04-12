@@ -2,6 +2,9 @@
 
 (For table of contents, visit [homepage](/README.md))
 
-[Next](.md)/[Previous](.md)
+[Previous](/Perturb.md)/[Next](/fourier_transform.md)
 
 # Selection Rules
+
+
+[Next](/fourier_transform.md) (Fourier Transform)
