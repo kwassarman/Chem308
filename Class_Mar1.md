@@ -2,6 +2,8 @@
 
 (For table of contents, visit [homepage](/README.md))
 
+[Previous](/PIB_TDSE.md)/[Next](/Perturb.md)
+
 # TDSE Using Difference
 
 Today in class we were trying to write code for TDSE but instead of using [differentials](TDSE.md) we wanted to use differences. Although using difference for graphing will result in uncertainty overtime, it explains what is happening with the TDSE in a different way. Below I will show the steps converting the TDSE with the differential to the difference with explanations after each step.
@@ -106,3 +108,5 @@ The one on the right has a larger second derivative because it has more "bumps" 
 ![Animation](/n=2,4.gif)
 
 As you can see n=2 is rotating the slower than n=4.
+
+[Next](/Perturb.md) (Introduction to Perturbation Theory)
