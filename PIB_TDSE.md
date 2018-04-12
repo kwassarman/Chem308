@@ -2,7 +2,7 @@
 
 (For table of contents, visit [homepage](/README.md))
 
-[Next](Class_Mar1.md)/[Previous](TDSE.md)
+[Previous](TDSE.md)/[Next](Class_Mar1.md)
 
 # Particle in a Box TDSE
 
