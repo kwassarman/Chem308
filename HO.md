@@ -6,4 +6,22 @@
 
 # Harmonic Oscillator
 
+## Understanding Harmonic Oscillation
+
+The animation below shows the oscillation of the wavefunction. This is the correct oscillation frequency in order for the system to gain energy. The graph on the right shows the amount of contribution from each energy level. At the beginning, almost all of the contribution was coming from the ground state (seen by the orange line at 1). But as the system gains more energy from the oscillation, more energy levels are accessible, so there are contributions from more states.
+
+![oscillator](/oscillation.gif)
+
+However, the tilting of the box does not always result in the above animation. Below shows an animation where the oscillation does not match the harmonic oscillation of the system. Therefore, energy is not able to accumulated and only the ground level energy state is still accessible.
+
+![oscillator2](/oscillation2.gif)
+
+## Harmonic Oscillator Potential Well
+
+## Harmonic Oscillator: TDSE
+
+This new potential well can be applied using the TDSE in a similar way to PIB. Everything is the same, however, instead of the infinite well potential, now the potential well is the HO. Either the harmonic oscillator or the Morse potential well can be used. Below is a picture of the first 10 energy levels for the harmonic potential well. The energy levels are evenly spaced and there is more electron density towards the middle the well versus the sides.
+
+
+
 [Next](/Selection_rules.md) (Selection Rules)
