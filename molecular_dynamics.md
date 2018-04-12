@@ -8,7 +8,7 @@
 
 To further explore chemical bonding and reactivity on the quantum level, Matlab can be used to model reactions. One simple reaction that we observed was a substitution reaction as follows:
 
-$$AB + C \rightarrow AC + B$$
+$$A + BC \rightarrow AB + C$$
 
 ## Surfaces
 
@@ -40,7 +40,7 @@ This first animation shows the reaction not occuring. The top left images shows 
 
 ![doesn't make it](/early_surface_doesnt_make_it.gif)
 
-Next, this animation shows the reaction almost occurring. The AB molecule almost separates, and the reaction bounces around the saddle point for a little while. But ultimately, there is not enough energy to get over the saddle point so the reaction does not occur.
+Next, this animation shows the reaction almost occurring. The AB molecule almost separates, and the reaction bounces around the saddle point for a little while. If you look at the top left picture when the reaction is at the saddle point, you can see that atoms A and C appear to be vibrating with atom C at the same frequency. But ultimately, there is not enough energy to get over the saddle point so the reaction does not occur. This can also be observed in the middle graph on the right after the reaction is done.
 
 ![almost](/early_surface_almost_makes_it.gif)
 
