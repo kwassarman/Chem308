@@ -38,7 +38,7 @@ This well represents the reaction of non-reactive species, such as nobel gases. 
 
 This first animation shows the reaction not occuring. The top left images shows the atoms A, B, and C. And the bottom left image shows the particles moving in space on the surface. There is not enough energy for B to make it over the saddle point in order to bond with C. Then the three images on the left show the position, momentum, and energy of the particles. 
 
-![doesn't make it](/early_surface_doesnt_make_it.gif)
+![doesn't make it](/early_surface_makes_it.gif)
 
 Next, this animation shows the reaction almost occurring. The AB molecule almost separates, and the reaction bounces around the saddle point for a little while. If you look at the top left picture when the reaction is at the saddle point, you can see that atoms A and C appear to be vibrating with atom C at the same frequency. But ultimately, there is not enough energy to get over the saddle point so the reaction does not occur. This can also be observed in the middle graph on the right after the reaction is done.
 
@@ -46,6 +46,6 @@ Next, this animation shows the reaction almost occurring. The AB molecule almost
 
 Finally, this animation shows the reaction occuring. The AB molecule separates, and the BC molecule forms while A moves away. This means that there was enough energy to get over the saddle point and the overall energy of the BC molecule is lower than the AB molecule.
 
-![makes it](/early_surface_makes_it.gif)
+![makes it](/early_surface_makes_it1.gif)
 
 ## Exploaration with Late Barrier Surface
