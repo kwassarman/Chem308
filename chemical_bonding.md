@@ -6,7 +6,7 @@
 
 # Chemical Bonding from Quantum Perspective
 
-Up to this point, only systems with two particles have been solved with the Schrödinger equation. On the [Pertubation Theory](/perturb.md) page, $H_2^+$ was discussed and it was said that the wavefunctions could not be solved. This is because it is impossible to solve the Schrödinger equation for a system contianing more than two particles, which is known as the three body problem. Now we are going to examine the interactions more closely for the system using certain approximations. Below $H_2^+$ system is picutred:
+Up to this point, only systems with two particles have been solved with the Schrödinger equation. On the [Pertubation Theory](/Perturb.md) page, $H_2^+$ was discussed and it was said that the wavefunctions could not be solved. This is because it is impossible to solve the Schrödinger equation for a system contianing more than two particles, which is known as the three body problem. Now we are going to examine the interactions more closely for the system using certain approximations. Below $H_2^+$ system is picutred:
 
 ![H2+ molecule](H2+.png)
 
