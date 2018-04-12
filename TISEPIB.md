@@ -4,7 +4,7 @@
 
 # Matlab Code for TISE PIB
 
-
+```Matlab
 function PIB(n)
 %% Defining Variables 
     hbar=1;
@@ -57,5 +57,6 @@ function [ srtvecs,srtvals ] = eigsort( vecs,vals )
     srtvals=diag(dsort);
 end
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+```
 
 [Home](/README.md)
