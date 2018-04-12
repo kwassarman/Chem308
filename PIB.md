@@ -4,7 +4,7 @@
 
 [Previous](TISE.md)/[Next](TDSE.md)
 
-# Particle in a Box 
+# TISE: Particle in a Box 
 
 The particle in a box model is used to describe the energy of a particle in certain kinetic and potential energy conditions. In a one dimensional model, the particle is trapped in a well with length, L, where the well represents the potential energy. Initially, we only looked at a well with infinite walls. However, in the future, the potential energy well can be modified to determine how the eigenvectors and eigenvalues will change if the well is not infinite or a barrier is placed in the middle of the well. 
 
