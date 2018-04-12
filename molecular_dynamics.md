@@ -60,3 +60,10 @@ Next, this animation shows the reaction occurring. The starting position is the 
 
 ## Exploration with Lennard-Jones Potential
 
+The reaction does not occur with the LJ potential. Many different techniques were used to attempt to get the reaction to occur. However, because the potential was designed for molecules that do not react and are non-bonding, the reaction will not occur. Below shows an animation of the reaction not occurring:
+
+![LJ](/LJ.gif)
+
+Overall, the three potentials shown represent different reaction conditions. As expected, it was easiest to determine reaction conditions for the early barrier surface because it represents the exothermic reaction. This means that there only needed enough energy to get over the saddle point. Whereas the late barrier surface represents the endothermic reaction, so there needed to be enough energy to get over the saddle point as well as enough energy to go into the higher energy state of the reactants. And finally, no conditions could be found in order for the LJ potential to react. This is because the LJ potential represents non-bonding reactions, such as between nobel gases.
+
+[Homepage](/README.md)
