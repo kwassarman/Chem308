@@ -2,7 +2,7 @@
 
 (For table of contents, visit [homepage](/README.md))
 
-[Previous](TDSE.md)
+[Next](Class_Mar1.md)/[Previous](TDSE.md)
 
 # Particle in a Box TDSE
 
@@ -64,7 +64,7 @@ Sometimes you want to see what will happen to a particle if you start with speci
 
 ![Gaussian](/gaussian.gif)
 
-[Homepage](/README.md)
+[Next](/Class_Mar1.md) (TDSE using Difference)
 
 #### Matlab Code for KLW_plot3
 ```Matlab
