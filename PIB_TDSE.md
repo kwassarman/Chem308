@@ -6,46 +6,8 @@
 
 # TDSE: Particle in a Box
 
-The general set up of PIB for The Time Dependent Schrödinger Equations is similar to that of The Time Independent Schrödinger Equation. The potential well, Hamiltonian operator, eigenvalues, and eigenvectors are the same as in the TISE PIB. However, because the TDSE evolves with time, the plot now has to be an animation to represent the progression of time. 
+The general set up of PIB for The Time Dependent Schrödinger Equations is similar to that of The Time Independent Schrödinger Equation. The potential well, Hamiltonian operator, eigenvalues, and eigenvectors are the same as in the TISE PIB. However, because the TDSE evolves with time, the plot now has to be an animation to represent the progression of time. From the PIB for TISE, the wavefunction vector is defined in position space, therefore, you need to switch between the energy and position matrix through the vector of eigenvectors. The time evolution can be achieved by either using [differentials](/TDSEPIB.md) or [difference](/Class_Mar1.md). Below are examples of PIB using TDSE.
 
-From the PIB for TISE, the wavefunction vector is defined in position space, therefore, you need to switch between the energy and position matrix through the vector of eigenvectors.
-```Matlab
-EtoX=vecs; 
-XtoE=inv(vecs);
-```
-Therefore, in order to get into the energy basis, you can multiply EtoX by the vector of a specific state you want in the energy basis. For example, if you want the second state in the energy basis, you can use the following vector $$\psi_E=\begin{pmatrix} 0\\1\\0\\ \vdots \\ 0 \end{pmatrix}$$. The following is the Matlab code that can be used to get the vector of the wanted $$\psi_E$$:
-```Matlab
-psiE=zeros(pts,1); 
-psiE([n])=1;
-```
-From here, you can use a loop in order to get the animation to go for a specified amount of time. This means that you can go through a certain number of time points and determine the position and energy at that point and graph it. Then you can continue to the next time point. This will result in an animation over time. 
-
-Below is the Matlab code for the animation. The KLW_plot3 function is shown at the bottom of this page. 
-```Matlab
-t=0; dt=0.1;
-for k=1:50 % number of time points
-    psiEt=psiE.*exp(-i*diag(srtvals)*t/hbar); % operating with T
-    psiEt=psiEt/norm(psiEt); % normalize vector of psiE dependent on time
-    psiXt=EtoX*psiEt;
-    psiXt=psiXt/norm(psiXt); % normalize vector of psiX dependent on time
-    rpsiXt=abs(psiXt).^2;
-    expE=real(psiEt'*(srtvals*psiEt)); % determines energy expectation value in energy basis
-    repvals=(ones(pts,1))*expE;
-    snrpsiXt=rpsiXt+repvals; % shifted psiXt by energy
-    expX=real(psiXt'*(x.*psiXt)); % expectation value for position
-    figure(1)
-    subplot(2,2,1)
-    KLW_plot3(x,psiXt)
-    subplot(2,2,2)
-    KLW_plot3(diag(srtvals),psiEt)
-    subplot(2,2,[3,4])
-    plot(x,snrpsiXt(:,1),expX,expE,'r *')  
-    axis([0 1 expE-0.015 expE+0.015])
-    text(0.2,expE+0.013,['E= ' num2str(expE)])
-    drawnow
-    t=t+dt;
-end
-```
 ## Start with Specified State
 
 We initially looked at the animation when a specific state was defined for n. The input of n could be a single value, which is a stationary state, or n could be multiple values, which is a non-stationary state. Below is a general output that represents the system of n=2.
