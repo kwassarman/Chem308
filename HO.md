@@ -10,7 +10,7 @@ The harmonic oscillator is another model that can be used to understand chemistr
 
 ![general_HO](/general_HO.gif)
 
-The red atom is fixed in space and the blue atom is vibrating back and forth. This can be done by using the reduced mass ($\frac {m_1 m_2}{m_1 + m_2}), and therefore, instead of accounting for the motion of both atoms, you only need to calculate one motion.
+The red atom is fixed in space and the blue atom is vibrating back and forth. This can be done by using the reduced mass ($\frac {m_1 m_2}{m_1 + m_2}$), and therefore, instead of accounting for the motion of both atoms, you only need to calculate one motion.
 
 ## Understanding Harmonic Oscillation
 
