@@ -8,7 +8,7 @@
 
 The general set up of PIB for The Time Dependent Schrödinger Equations is similar to that of The Time Independent Schrödinger Equation. The potential well, Hamiltonian operator, eigenvalues, and eigenvectors are the same as in the TISE PIB. However, because the TDSE evolves with time, the plot now has to be an animation to represent the progression of time. 
 
-From the PIB for TISE, the wavefunction vector is defined in position space. In order to switch between the position and energy bases, the following Matlab code can be used:
+From the PIB for TISE, the wavefunction vector is defined in position space, therefore, you need to switch between the energy and position matrix through the vector of eigenvectors.
 ```Matlab
 EtoX=vecs; 
 XtoE=inv(vecs);
