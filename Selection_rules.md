@@ -6,5 +6,8 @@
 
 # Selection Rules
 
+![HO_prob](/HO.prob_10.png)
+
+![morse_prob](/morse_pot.png)
 
 [Next](/fourier_transform.md) (Fourier Transform)
