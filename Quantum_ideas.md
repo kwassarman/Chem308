@@ -21,24 +21,15 @@ $$\hat{p}=-i\hbar\frac{\partial}{\partial x}.$$
 Similarly, the position and momentum operators can be expressed as matrices. Linear algebra is useful in order to utilize coding in Matlab to do the calculations for us. For the position operator, since it is multiplying by a constant, this is a matrix with that constant on the diagonal. 
 
 \begin{bmatrix}
-    x & 0 & 0 & \dots  & 0 \\
-    0 & x & 0 & \dots  & 0 \\
-    \vdots & \vdots & \vdots & \ddots & \vdots \\
-    0 & 0 & 0 & \dots  & x
+x & 0 & 0 & 0 \\
+0 & x & 0 & 0 \\
+0 & 0 & x & 0 \\
+0 & 0 & 0 & x \\
 \end{bmatrix}
-\]
-\end{document}
 
 And for the momentum operator, the matrix can be multiplied by the constants in the front. The first derivative matrix is the following:
 
-\begin{bmatrix}
-    -1 & 1 & 0 & 0 & \dots  & 0 \
-    0 & -1 & 1 & 0 & \dots  & 0 \
-    \vdots & \vdots & \vdots & \ddots & \vdots \
-    0 & 0 & 0 & \dots  & x_{dn}
-\end{bmatrix}
-\]
-\end{document}
+
 
 ## Kinetic Energy Operator $$(\hat{T})$$
 
