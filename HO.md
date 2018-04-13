@@ -46,6 +46,6 @@ Below is first 10 energy levels for the Morse potential well. The bottom energy 
 
 [Next](/Selection_rules.md) (Selection Rules)
 
-![Code for HO](/HOcode.md)
+[Code for HO](/HOcode.md)
 
-![Code for Morse Potential](/morsecode.md)
+[Code for Morse Potential](/morsecode.md)
