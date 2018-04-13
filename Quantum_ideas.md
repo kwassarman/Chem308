@@ -26,10 +26,10 @@ $[x & 0 & 0 & 0 \\
 0 & 0 & 0 & x]$
 
 \begin{bmatrix}
-x & 0 & 0 & 0 \\
-0 & x & 0 & 0 \\
-0 & 0 & x & 0 \\
-0 & 0 & 0 & x \\
+x & 0 & 0 & 0\\
+0 & x & 0 & 0\\
+0 & 0 & x & 0\\
+0 & 0 & 0 & x\\
 \end{bmatrix}
 
 And for the momentum operator, the matrix can be multiplied by the constants in the front. The first derivative matrix is the following:
