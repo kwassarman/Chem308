@@ -26,8 +26,10 @@ The above exercise can be done for every transition possible, or you can use Mat
 
 As you can see, only direct neighbor transitions are allowed, such as from $\nu = 1$ to $\nu = 2$. However, a transition from $\nu = 1$ to $\nu = 3$ is not allowed. 
 
-A similar code can be run in order 
+A similar code can be run in order to look at the Morse potential, which is a more realistic model on higher energy scales. Below is a heat map of the transitions allowed for vibrational states.
 
 ![morse_pot](/morse_pot.png)
+
+This exercise has allowed us to look at the vibrational transitions allowed. Overall, transitions are only allowed to neighboring states, ie $\Delta \nu = \pm 1$.
 
 [Next](/fourier_transform.md) (Fourier Transform)
