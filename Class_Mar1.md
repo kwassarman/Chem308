@@ -6,7 +6,7 @@
 
 # TDSE Using Difference
 
-Today in class we were trying to write code for TDSE but instead of using [differentials](TDSE.md) we wanted to use differences. Although using difference for graphing will result in uncertainty overtime, it explains what is happening with the TDSE in a different way. Below I will show the steps converting the TDSE with the differential to the difference with explanations after each step.
+Time dependence can also be determined through difference equations instead of partial derivatives. Although using difference for graphing will result in uncertainty overtime, it explains what is happening with the TDSE in a different way. Below I will show the steps converting the TDSE with the differential to the difference with explanations after each step.
 
 ### Determining Difference Equation
 
