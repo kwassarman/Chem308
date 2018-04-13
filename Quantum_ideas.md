@@ -20,11 +20,6 @@ $$\hat{p}=-i\hbar\frac{\partial}{\partial x}.$$
 
 Similarly, the position and momentum operators can be expressed as matrices. Linear algebra is useful in order to utilize coding in Matlab to do the calculations for us. For the position operator, since it is multiplying by a constant, this is a matrix with that constant on the diagonal. 
 
-$[x & 0 & 0 & 0 \\
-0 & x & 0 & 0 \\
-0 & 0 & x & 0 \\
-0 & 0 & 0 & x]$
-
 \begin{bmatrix}
 x & 0 & 0 & 0\\
 0 & x & 0 & 0\\
