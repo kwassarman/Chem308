@@ -10,7 +10,7 @@ Only certain transitions between states are allowed because energy and momentum 
 
 ## Transition Dipole Moment
 
-A transition dipole moment is created when two atomic orbitals are combined and result in a dipole. This is best seen with examples that show when there is a transition dipole moment and when when there is not a transition dipole moment. Below shows a transition dipole moment when a 1s orbital and a 2p orbital are overlapped. The p-orbital changes phases at a faster rate than the s-orbital. Therefore, the destructive and constructive interference between the orbitals creates a distored looking p-orbital. As you can see as time progresses, the lobe sizes on the right and left change. This shows that there is a dipole moment when transitioning between these orbitals (seen in red bod). Therefore, a transition between these orbitals is allowed.
+A transition dipole moment is created when two atomic orbitals are combined and result in a dipole. This is best seen with examples that show when there is a transition dipole moment and when when there is not a transition dipole moment. Below shows a transition dipole moment when a 1s orbital and a 2p orbital are overlapped. The p-orbital changes phases at a faster rate than the s-orbital. Therefore, the destructive and constructive interference between the orbitals creates a distored looking p-orbital. As you can see as time progresses, the lobe sizes on the right and left change. This shows that there is a dipole moment when transitioning between these orbitals (seen in red box). Therefore, a transition between these orbitals is allowed.
 
 ![transitiondipole](/yes.gif)
 
