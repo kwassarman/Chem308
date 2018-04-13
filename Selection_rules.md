@@ -33,3 +33,5 @@ A similar code can be run in order to look at the Morse potential, which is a mo
 This exercise has allowed us to look at the vibrational transitions allowed. Overall, transitions are only allowed to neighboring states, ie $\Delta \nu = \pm 1$.
 
 [Next](/fourier_transform.md) (Fourier Transform)
+
+[Code in Matlab](/selection_rulescode.md)
