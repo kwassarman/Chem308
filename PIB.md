@@ -14,64 +14,23 @@ The well can be defined by a certain length, L, and height at the sides. Initial
 
 ![Potential well](/Potenwell_1.png)
 
-This is the Matlab code for making the potential well matrix as well as plotting the potential well.
-```Matlab
-% Creating Potential Energy Matrix
-  w=3 % number of points within infinite wall
-  pts=250; % number of discretized points
-  Vvec=zeros(pts,1); % column vector of all zeros
-  Vvec([1:w,(end-(w-1)):end])=1E6; % infinite walls at end
-  V=diag(Vvec); % changes vector into matrix
-% Plotting Potential Energy Matrix
-  figure(1);plot(x,Vvec,'r'); % r will turn line red
-```
+The potential energy matrix for this well is as follows:
+
+![potential](/potential_matrix1.png)
 
 The potential well can also be modified so that the walls are not infinitely high or there is a bump in the middle of the well. This will change the behavior of the particle because it is no longer trapped in the box. Also if there is a bump in the middle, the particle can still occupy the entire box, however, the probability in certain areas will decrease because the particle is less likely to get over the bump in the potential energy. Below is an example of a potential well with a bump in the potential energy well.
 
 ![Potential well2](/Potenwell_2.png)
 
-This is the Matlab code for modifying the potential well matrix.
-```Matlab
-% Modifiying Potential Matrix
-  w=3 % number of points within infinite wall
-  pts=250; % number of discretized points
-  Vvec=zeros(pts,1); % same as above
-  Vvec([1:w,(end-(w-1)):end])=1E6; % same as above
-  Vvec([120:130])=(1E6)/3; % puts a bump in the middle
-  V=diag(Vvec); % same as above
-```
+This well has the following potential energy matrix:
+
+![potential_ma](/potential_matrix2.png)
+
 ## Physical States of Particle 
 
 There are different physical states that you can determine about the particle in the well based on which operator you use. Such as, if you want to determine the position of the particle at the ground state, then you would use the position operator to generate the observable of the location of the particle. And you want to determine the average position of the particle when at multiple states, you can use an expectation value (average position) based upon the possible states the particle can be in. This can also be done for momentum and energy. Such as if you want to determine the energy of the particle when in the ground state, you can use the Hamiltonian operator on the wave function. Below is a picture of the first five energy states for an electron in an infinite box.
 
 ![PIB](/PIB_5st.png)
-
-This is the Matlab code for generating and plotting the states. Also open [this](PIB5.m) in Matlab to have the full function and can change n to be the number of states that you want to look at (you will need to change the axes).
-```Matlab
-% First need to define constants
-  hbar=1;
-  m=1; % mass of electron
-  l=1; % length of box 
-  pts=250; % number of discretized points
-  w=3; % number of points within infinite wall
-  x=linspace(0,l,pts); % discretized space
-  dx=x(2)-x(1);
-  barht=1E6; %bar height on potential matrix
-  c=-(hbar.^2)/(2.*m); % constant in kinetic energy operator
-% Next can use kinetic and potential matrices already defined
-  H=T+V
-% Next determine eigenvectors and eigenvalues
-  [vecs,vals]=eig(H); 
-% Separate states by eigenvalues
-  sc=-100 % scalar factor
-  vecs=sc*vecs
-  repvals=(ones(pts,1))*vals';
-  shiftvecs=srtvecs+repvals;
-% Finally plot eigenvectors for different states
-  figure(1);plot(x,shiftvecs(:,1:n),x,Vvec);
-  axis([-inf inf -.5 300]); % adjusts axes to be able to see eigenvectors
-```
-The constants are currently defined as 1 so the numbers are easier to work with because $$\hbar$$ and mass of an electron are very small numbers. Also, I orignially had the true constants in and Matlab was not able to calculate the eigenvectors and eigenvalues with enough accuracy to be able to graph the different states.
 
 Below are the first five energy states when there is a bump in the middle of the potential well. As you can see the states that have an average energy lower than the bump height are visually disrupted, but the states higher than the energy of the bump do not appear to be disturbed. You can also add more modifications to the well and see what happens to the different states.
 
