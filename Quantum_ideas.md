@@ -18,7 +18,17 @@ and the momentum operator is
 
 $$\hat{p}=-i\hbar\frac{\partial}{\partial x}.$$
 
-The *Heisenberg Uncertainty Principle* says that the uncertainty of position and momentum can never both be know absolutely. This is because the functions that satisfy the position operator do not satisfy the momentum operator and vice versa. The principle says the product of uncertainty of position and momentum is greater than or equal to $$\frac{\hbar}{2}$$. 
+Similarly, the position and momentum operators can be expressed as matrices. Linear algebra is useful in order to utilize coding in Matlab to do the calculations for us. For the position operator, since it is multiplying by a constant, this is a matrix with that constant on the diagonal. 
+
+\begin{bmatrix}
+    x & 0 & 0 & \dots  & 0 \\
+    0 & x & 0 & \dots  & 0 \\
+    \vdots & \vdots & \vdots & \ddots & \vdots \\
+    0 & 0 & 0 & \dots  & x
+\end{bmatrix}
+\]
+\end{document}
+
 
 ## Kinetic Energy Operator $$(\hat{T})$$
 
