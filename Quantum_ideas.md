@@ -29,6 +29,16 @@ Similarly, the position and momentum operators can be expressed as matrices. Lin
 \]
 \end{document}
 
+And for the momentum operator, the matrix can be multiplied by the constants in the front. The first derivative matrix is the following:
+
+\begin{bmatrix}
+    -1 & 1 & 0 & 0 & \dots  & 0 \
+    0 & -1 & 1 & 0 & \dots  & 0 \
+    \vdots & \vdots & \vdots & \ddots & \vdots \
+    0 & 0 & 0 & \dots  & x_{dn}
+\end{bmatrix}
+\]
+\end{document}
 
 ## Kinetic Energy Operator $$(\hat{T})$$
 
