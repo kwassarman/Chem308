@@ -2,7 +2,7 @@
 
 (For table of contents, visit [homepage](/README.md))
 
-[Previous](/Perturb.md.md)/[Next](/Selection_rules.md)
+[Previous](/Perturb.md)/[Next](/Selection_rules.md)
 
 # Harmonic Oscillator
 
