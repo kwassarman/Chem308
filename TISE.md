@@ -6,7 +6,7 @@
 
 # The Time Independent Schrödinger Equation (TISE)
 
-As the name describes, the time independent Schrödinger only depends on space and is indepdent of time. This equation can be used for any operator shown on the previous page, but the rest of this page will discuss the TISE in terms of the Hamiltonian operator. The equation that describes quantum mechanics of particles in well defined energy states or stationary states can be determined by the equation:
+As the name describes, the time independent Schrödinger only depends on space and is independent of time. This equation can be used for any operator shown on the previous page, but the rest of this page will discuss the TISE in terms of the Hamiltonian operator. The equation that describes quantum mechanics of particles in well defined energy states or stationary states can be determined by the equation:
 
 $$\hat{H}\psi(x)=E\psi(x)$$
 
